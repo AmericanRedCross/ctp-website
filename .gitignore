@@ -1,0 +1,11 @@
+# System files
+.project
+.DS_Store
+.sass-cache
+.bundle
+bundle
+
+# Local
+_site
+img/img-working/*
+notes.md

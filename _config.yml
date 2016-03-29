@@ -1,0 +1,6 @@
+# Site settings
+title: Cash in Emergencies
+
+# locale settings
+default_locale:     "en"
+authorized_locales: ["en","es"]

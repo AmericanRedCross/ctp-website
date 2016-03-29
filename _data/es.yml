@@ -1,0 +1,58 @@
+####################
+## HEADER CONTENT ##
+####################
+
+nav_home:
+  text:           "Inicio"
+  url:            "/es/"
+nav:
+  - text:         "Toolkit"
+    url:          "/es/toolkit/"
+  - text:         "Resources"
+    url:          "/es/resources/"
+
+#############
+## LANDING ##
+#############
+
+landing:
+  movement:       "Movimiento Internacional de la Cruz Roja y de la Media Luna Roja"
+  title:          "Caja de herramientas para PTE en emergencias"
+
+###########
+## ABOUT ##
+###########
+
+about:
+  title:          "Sobre el Efectivo en Situaciones de Emergencia Toolkit"
+  paragraph1:     "Transferencia de dinero en efectivo de programación basado (CTP) es una manera eficaz y flexible para apoyar a las personas afectadas por situaciones de emergencia, manteniendo su dignidad y la elección, mientras que el fomento de la economía local. CTP incluye todas las formas de dinero en efectivo y la asistencia basada en el comprobante."
+  paragraph2:     "El efectivo en situaciones de emergencia kit de herramientas ha sido ideado por la Cruz Roja como un medio para hacer herramientas, una guía práctica y las normas mínimas de fácil acceso para el personal y los voluntarios. El conjunto de instrumentos debería informar y orientar la aplicación de CTP, para mejorar la calidad de la CTP en las diferentes fases del ciclo del proyecto."
+
+#####################
+## FEEDBACK ##
+#####################
+
+feedback:
+  title:          "Feedback"
+  paragraph1:     "The Cash in Emergencies Toolkit has been based on tools, guidance and experience both from within the International Red Cross and Red Crescent Movement and from other humanitarian organisations."
+  paragraph2:      "Suggestions for improvement of tools are welcome and shall inform the periodic update of the Toolkit. For technical issues with the website please send an <a href=\"mailto:daniel.joseph@redcross.org\">email</a>."
+  form_btn:        "Feedback Form"
+  social:          "Share This"
+
+#####################
+## ACKNOWLEDGEMENT ##
+#####################
+
+acknowledgment:
+  title:          "Acknowledgment"
+  text1:          "The Cash in Emergencies Toolkit was made possible thanks to the support of:"
+  text2:          "The Cash in Emergencies Toolkit translations were made available by ECHO"
+
+#############
+## TOOLKIT ##
+#############
+
+toolkit:
+  title:          "Explore the Toolkit"
+  paragraph1:     "The Cash in Emergencies Toolkit is organized in modules, each corresponding to a different phase of the project cycle."
+  paragraph2:          "Each module is divided in steps and sub-steps. They are indicative and not necessarily sequential. The user may need to move back and forth to reach the intended results. The user may also need to skip some of the steps or sub-steps proposed, due to time and resource constraints that are common in an emergency context."
