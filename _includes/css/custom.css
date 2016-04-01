@@ -11,6 +11,11 @@ html {
     height: 100%;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -116,26 +121,8 @@ a:focus {
 .navbar-custom .dropdown-menu a {
     color: #fff;
 }
-.navbar-custom.top-nav-collapse .dropdown-menu {
+.navbar-custom .dropdown-menu {
     background: #000;
-}
-
-@media(min-width:768px) {
-    .navbar-custom {
-        /*padding: 20px 0;*/
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .navbar-custom.top-nav-collapse {
-        /*padding: 0;*/
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
-    }
 }
 
 .intro {
@@ -322,11 +309,11 @@ footer p {
     background: rgba(255,255,255,.2);
 }
 
-::selection {
+/*::selection {
     text-shadow: none;
     background: #fcfcfc;
     background: rgba(255,255,255,.2);
-}
+}*/
 
 img::selection {
     background: 0 0;

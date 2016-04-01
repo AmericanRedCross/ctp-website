@@ -1,3 +1,27 @@
+<style>
+@media(min-width:768px) {
+    .navbar-custom {
+        border-bottom: 0;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+    }
+}
+
+.navbar-custom .dropdown-menu {
+    background-color: transparent;
+}
+.navbar-custom.top-nav-collapse .dropdown-menu {
+    background: #000;
+}
+
+</style>
+
 <!-- Intro Header -->
 <header class="intro">
     <div class="intro-body">
