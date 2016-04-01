@@ -64,3 +64,4 @@ toolkit:
   module5:        "Monitoring<br>&amp; Evaluation"
   searchmessage:  "Search for a document..."
   emptymessage:   "unable to find a matching document"
+  suggestlimit:   "maximum of 20 suggestions returned when searching"
