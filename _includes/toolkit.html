@@ -24,6 +24,48 @@
   left: 0;
   z-index: 3;
 }
+.menu-btn {
+  cursor: pointer;
+  position: fixed;
+  top: 55px;
+  left: 5px;
+  font-size: 16px;
+  display: none;
+}
+.navbar-toggle.collapsed {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 980px){
+  .menu-btn {
+    display: block;
+  }
+  .menu-btn.is-open {
+    left: 245px;
+  }
+  #toolkit-sidebar {
+    margin-left: -240px;
+  }
+  #toolkit-sidebar.is-open {
+    margin-left: 0px;
+  }
+  #toolkit {
+    margin-left: 0;
+  }
+  #toolkit.is-open {
+    margin-left: 240px;
+    margin-right: -240px;
+  }
+}
+
+#toolkit-sidebar, #toolkit, .menu-btn {
+  -webkit-transition: all 0.6s ease 0s;
+  -moz-transition: all 0.6s ease 0s;
+  -ms-transition: all 0.6s ease 0s;
+  -o-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+}
+
 .nav-wrapper {
   width: 240px;
   position: fixed;
@@ -32,10 +74,8 @@
   margin: 0;
   overflow: auto;
   padding-left: 2px;
+  padding-bottom: 60px;
 
-}
-.nav-custom {
-  padding-top: 20px;
 }
 /* all links */
 .nav-wrapper .nav>li>a {
@@ -51,7 +91,6 @@
 .nav-wrapper .nav>li>a:hover,
 .nav-wrapper .nav>li>a:focus {
   color: #fff;
-  font-weight: bolder;
   text-decoration: none;
   background-color: transparent;
   border-left: 2px solid #fff;
@@ -64,13 +103,13 @@
     padding-left: 30px;
     font-size: 12px;
 }
-/* nested active links */
-.nav-wrapper .nav .nav>.active>a,
-.nav-wrapper .nav .nav>.active:hover>a,
-.nav-wrapper .nav .nav>.active:focus>a {
-    font-weight: bold;
+/* nested nested links */
+.nav-wrapper .nav .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    font-size: 10px;
 }
-
 /* hide all (inactive) nested list */
 .nav-wrapper .nav ul.nav {
     display: none;
@@ -80,34 +119,58 @@
     display: block;
 }
 
-.toolkit-block, .toolkit-item, .toolkit-item>a {
+.toolkit-block, .toolkit-item {
   padding-top: 70px;
   margin-top: -70px;
 }
+.toolkit-item {
+  margin-bottom: 3px;
+  margin-left: 12px;
+}
 
 
-.folder-name.level-1 {
-  /*margin: 0 0 35px;*/
+.folder-name.level-0 {
+  margin: 32px 0 16px 0;
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 1px;
 }
-
-.folder-name.level-2 {
-  /*margin: 0 0 35px;*/
+.folder-name.level-1 {
+  margin: 14px 0 16px 0;
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.folder-name.level-2 {
+  margin: 12px 0 6px 0;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: 1px;
+}
+
+.toolkit-item a {
+    color: #4C4C4C;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.toolkit-item a:hover,
+.toolkit-item a:focus {
+    text-decoration: none;
+    color: #ed1b2e;
+    cursor: pointer;
 }
 
 
 #search-box .tt-menu{
   max-height: 250px;
-  overflow-y: auto;
+  overflow-y: scroll;
+  overflow-y: -moz-scrollbars-vertical;
 }
 .typeahead,
 .tt-query,
@@ -188,20 +251,30 @@
 <div class="page-wrapper">
   <!--Nav Bar -->
   <nav id="toolkit-sidebar" class="">
+
     <div class="nav-wrapper">
-      <ul class="nav nav-stacked nav-custom" data-toolkitpath="toolkit" >
+
+      <ul class="nav nav-stacked nav-custom" style="padding-top:20px;" data-toolkitpath="toolkit" >
         <li><a href="#toolkit" class="page-scroll">{{site.data[locale].toolkit.about}}</a></li>
           <!-- . . . toolkit nav menu goes here . . . -->
+      </ul>
+      <div style="height:12px;"></div>
+      <ul class="nav nav-stacked nav-custom" data-toolkitpath="modalities" >
+
+          <!-- . . . modalities nav menu goes here . . . -->
       </ul>
     </div>
   </nav>
     <!-- Toolkit content -->
     <div id="toolkit" class="">
-
+      <div class="menu-btn"><i class="fa fa-bars"></i></div>
       <div class="text-center">
           <h2>{{site.data[locale].toolkit.title}}</h2>
           <p>{{site.data[locale].toolkit.paragraph1}}</p>
           <p>{{site.data[locale].toolkit.paragraph2}}</p>
+          <p class="overview-docs">
+          </p>
+          <h4>{{site.data[locale].toolkit.modules}}</h4>
           <p>
             <ul class="list-inline">
               <li><a href="#" class="page-scroll btn btn-default btn-lg btn-module btn-preparedness">{{site.data[locale].toolkit.module1}}</a></li>
@@ -211,6 +284,14 @@
               <li><a href="#" class="page-scroll btn btn-default btn-lg btn-module btn-evaluation">{{site.data[locale].toolkit.module5}}</a></li>
             </ul>
           </p>
+          <h4>{{site.data[locale].toolkit.modalities}}</h4>
+          <p>
+            <ul class="list-inline">
+              <li><a href="#" class="page-scroll btn btn-default btn-lg btn-resources btn-cashforwork">{{site.data[locale].toolkit.cashforwork}}</a></li>
+              <li><a href="#" class="page-scroll btn btn-default btn-lg btn-resources btn-vouchers">{{site.data[locale].toolkit.vouchers}}</a></li>
+            </ul>
+          </p>
+          <img class="img-resources img-circle" src="/img/modalities.jpg" alt="join">
 
         <p>
           <div id="search-box">
@@ -225,9 +306,14 @@
             <div class="contents"></div>
             <!-- . . . folders and file links go here . . . -->
         </div>
+        <div data-toolkitpath="modalities" class="toolkit-block">
+            <div class="contents"></div>
+            <!-- . . . folders and file links go here . . . -->
+        </div>
       </div>
 
     </div>
+    <div style="width:100%; height: 500px; background-color:#f5f5f5;"></div>
 
 </div>
 <script src="/js/typeahead.bundle.js" charset="utf-8"></script>
@@ -238,9 +324,24 @@
 // HELPERS
 // #######
 
+$('.menu-btn').on('click', function(){
+  if ($('.menu-btn').hasClass('is-open')) {
+    $('.menu-btn').removeClass('is-open');
+    d3.select('.menu-btn').select('.fa').classed({ "fa-bars": true, "fa-times": false })
+    $('#toolkit').removeClass('is-open');
+    $('#toolkit-sidebar').removeClass('is-open');
+  } else {
+    $('.menu-btn').addClass('is-open');
+    d3.select('.menu-btn').select('.fa').classed({ "fa-bars": false, "fa-times": true })
+    $('#toolkit').addClass('is-open');
+    $('#toolkit-sidebar').addClass('is-open');
+  }
+});
+
+
 $('body').scrollspy({
-    target: '.nav-wrapper'
-    // offset: 60 // // can use this or something like ...  padding-top: 70px; && margin-top: -70px;
+    target: '.nav-wrapper',
+    offset: 200 // // can use this or something like ...  padding-top: 70px; && margin-top: -70px;
 });
 
 
@@ -281,6 +382,7 @@ var typeIcon = function(extension){
 };
 
 function identity(ugly) {
+  var ugly = 'o_' + ugly;
   var step1 = ugly.replace(/^[^-_a-zA-Z]+/, '').replace(/^-(?:[-0-9]+)/, '-');
   var step2 = step1 && step1.replace(/[^-_a-zA-Z0-9]+/g, '-');
   return step2.toLowerCase();
@@ -292,94 +394,188 @@ function identity(ugly) {
 // ################
 var language = "{{locale}}"
 var emptymessage = "{{site.data[locale].toolkit.emptymessage}}"
+var toolkitdata, modalitiesdata;
 
-function fetchData(){
-
+function fetchToolkit(){
   $.ajax({
     type: 'GET',
     url: 'http://webviz.redcross.org/ctp/toolkit/' + language,
     dataType: 'JSON'
   }).done(function(response){
-    data = response
-    buildToolkit(response);
+    toolkitdata = response
+    buildToolkit();
   });
 }
 
-var data, rollup, pathArray, toplevelfolders;
+function buildToolkit() {
 
-function buildToolkit(data) {
-  rollup = d3.nest()
-  .key(function(d){ return d.dboxpathparts.length; })
-  .sortKeys(d3.ascending)
-  .sortValues(function(a,b){ return d3.ascending(a.fullpath, b.fullpath); })
-  .entries(data);
-
-  pathArray = [];
-    for(var i=1; i<rollup.length; i++){
-      $.each(rollup[i].values, function(index,a){
-        if($.inArray(a.dboxpath, pathArray) === -1) {
-          pathArray.push(a.dboxpath);
-          // find parent nav list item and add a sub element to it
-          var navHtml = '<li><a href="#' + identity(a.dboxpathparts.slice(1).join('/')) + '" class="page-scroll">' + a.dboxpathparts.slice(-1) + '</a>' +
-              '<ul class="nav nav-stacked" data-toolkitpath="' + a.dboxpathparts.join('/') + '"></ul></li>';
-          $('#toolkit-sidebar [data-toolkitpath="' + a.dboxpathparts.slice(0,-1).join('/') + '"]').append(navHtml);
-
-          // add correct links for pretty top level folder buttons (the element id will vary for different languages)
-          if(a.dboxpathparts.length === 2) {
-            var pageLink = '#' + identity(a.dboxpathparts.slice(1).join('/'));
-            if(pageLink.indexOf('1') > -1){
-              $('.btn-module.btn-preparedness').attr('href', pageLink);
-            }
-            if(pageLink.indexOf('2') > -1){
-              $('.btn-module.btn-assessment').attr('href', pageLink);
-            }
-            if(pageLink.indexOf('3') > -1){
-              $('.btn-module.btn-response').attr('href', pageLink);
-            }
-            if(pageLink.indexOf('4') > -1){
-              $('.btn-module.btn-implementation').attr('href', pageLink);
-            }
-            if(pageLink.indexOf('5') > -1){
-              $('.btn-module.btn-evaluation').attr('href', pageLink);
-            }
-          }
-
-          // find parent folder list element and add a sub folder div element to it
-          var contentsHtml = '<div id="' + identity(a.dboxpathparts.slice(1).join('/')) + '" class="toolkit-block" data-toolkitpath="' + a.dboxpathparts.join('/') + '">' +
-            '<div class="folder-name level-' + i + '"><i class="fa fa-fw fa-folder-o"></i> &nbsp;' + a.dboxpathparts.slice(-1) + '</div><div class="contents"></div></div>';
-          $('#toolkit-contents [data-toolkitpath="' + a.dboxpathparts.slice(0,-1).join('/') + '"]').append(contentsHtml);
-        }
-      })
+  var counter = 0;
+  var folderPaths = [];
+  var pathPartsArray = [];
+  $.each(toolkitdata, function(index, d){
+    // this is necessary to get those folders if there is a folder without a file inside (just other folders)
+    for(i=2;i<=d.dboxpathparts.length;i++){
+      if($.inArray(d.dboxpathparts.slice(0,i).join('/'), folderPaths) === -1) {
+        folderPaths.push(d.dboxpathparts.slice(0,i).join('/'))
+        pathPartsArray.push(d.dboxpathparts.slice(0,i))
+      }
     }
+  });
 
-    data.sort(function(a,b){ return d3.descending(a.fullpath, b.fullpath); })
-      for(var i=0; i<data.length; i++){
-        if(systemFile(data[i].basename) === false){
-          var thisHtml = '<div class="toolkit-item">' +
-            '<a id="' + identity(data[i].dboxpathparts.slice(1).join('/') + data[i].basename) + '" target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/toolkit/';
-          thisHtml += (data[i].dboxpathparts.length > 1) ? data[i].dboxpathparts.slice(1).join('/') + '/' : '';
-          thisHtml += data[i].basename + '">' +
-            data[i].basename.slice(0,data[i].basename.indexOf(data[i].ext)) + ' ' + typeIcon(data[i].ext) + '</a></div>';
-            // console.log(identity(data[i].dboxpathparts.join('/')))
-          $('[data-toolkitpath="' + data[i].dboxpathparts.join('/') + '"]').children('.contents').prepend(thisHtml);
+  var rollup = d3.nest()
+    .key(function(d){ return d.length; })
+    .sortKeys(d3.ascending)
+    .sortValues(function(a,b){ return d3.ascending(a.join('/'), b.join('/')); })
+    .entries(pathPartsArray);
+
+  for(var i=0; i<rollup.length; i++){
+    $.each(rollup[i].values, function(index,d){
+      // find parent nav list item and add a sub element to it
+      var navHtml = '<li><a href="#' + identity(d.slice(1).join('/')) + '" class="page-scroll">' + d.slice(-1) + '</a>' +
+          '<ul class="nav nav-stacked" data-toolkitpath="' + d.join('/') + '"></ul></li>';
+      $('#toolkit-sidebar [data-toolkitpath="' + d.slice(0,-1).join('/') + '"]').append(navHtml);
+      // find parent folder list element and add a sub folder div element to it
+      var contentsHtml = '';
+      if(d.length === 2 && counter === 0){
+        counter++;
+        contentsHtml += '<div class="content-section text-center module-divider module-divider-' + counter + '"></div>';
+      }
+      // find parent folder list element and add a sub folder div element to it
+      contentsHtml += '<div id="' + identity(d.slice(1).join('/')) + '" class="toolkit-block" data-toolkitpath="' + d.join('/') + '">' +
+        '<div class="folder-name level-' + i + '">' +
+        ' &nbsp;' + d.slice(-1) + '</div><div class="contents"></div></div>';
+      if(d.length === 2){
+        counter ++;
+        contentsHtml += '<div class="content-section text-center module-divider module-divider-' + counter + '"></div>';
+      }
+      $('#toolkit-contents [data-toolkitpath="' + d.slice(0,-1).join('/') + '"]').append(contentsHtml);
+
+      // add correct links for pretty top level folder buttons (the element id will vary for different languages)
+      if(d.length === 2) {
+        var pageLink = '#' + identity(d.slice(1).join('/'));
+        if(pageLink.indexOf('1') > -1){
+          $('.btn-module.btn-preparedness').attr('href', pageLink);
+        }
+        if(pageLink.indexOf('2') > -1){
+          $('.btn-module.btn-assessment').attr('href', pageLink);
+        }
+        if(pageLink.indexOf('3') > -1){
+          $('.btn-module.btn-response').attr('href', pageLink);
+        }
+        if(pageLink.indexOf('4') > -1){
+          $('.btn-module.btn-implementation').attr('href', pageLink);
+        }
+        if(pageLink.indexOf('5') > -1){
+          $('.btn-module.btn-evaluation').attr('href', pageLink);
         }
       }
+    });
+  }
 
-      $(function() {
-          $('a.page-scroll').bind('click', function(event) {
-              var $anchor = $(this);
-              console.log($($anchor.attr('href')).offset().top)
-              $('html, body').stop().animate({
-                  scrollTop: $($anchor.attr('href')).offset().top
-              }, 1500, 'easeInOutExpo');
-              event.preventDefault();
-          });
+  toolkitdata.sort(function(a,b){ return d3.descending(a.fullpath, b.fullpath); })
+    for(var i=0; i<toolkitdata.length; i++){
+      if(systemFile(toolkitdata[i].basename) === false){
+        if(toolkitdata[i].dboxpathparts.length === 1){
+          var thisHtml = '<div id="' + identity(toolkitdata[i].dboxpathparts.slice(1).join('/') + toolkitdata[i].basename) + '">' +
+            '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/toolkit/' + toolkitdata[i].basename + '">' +
+            toolkitdata[i].basename.slice(0,toolkitdata[i].basename.indexOf(toolkitdata[i].ext)) + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
+          $('.overview-docs').append(thisHtml);
+        } else {
+          var thisHtml = '<div class="toolkit-item" id="' + identity(toolkitdata[i].dboxpathparts.slice(1).join('/') + toolkitdata[i].basename) + '">' +
+            '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/' +
+            toolkitdata[i].dboxpathparts.join('/') + '/' + toolkitdata[i].basename + '">' +
+            toolkitdata[i].basename.slice(0,toolkitdata[i].basename.indexOf(toolkitdata[i].ext)) + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
+            // console.log(identity(toolkitdata[i].dboxpathparts.join('/')))
+          $('[data-toolkitpath="' + toolkitdata[i].dboxpathparts.join('/') + '"]').children('.contents').prepend(thisHtml);
+        }
+      }
+    }
+
+  fetchModalities();
+
+}
+
+function fetchModalities(){
+  $.ajax({
+    type: 'GET',
+    url: 'http://webviz.redcross.org/ctp/modalities/' + language,
+    dataType: 'JSON'
+  }).done(function(response){
+    modalitiesdata = response
+    buildModalities();
+  });
+}
+
+function buildModalities(){
+
+  var folderPaths = [];
+  var pathPartsArray = [];
+  $.each(modalitiesdata, function(index, d){
+    // this is necessary to get those folders if there is a folder without a file inside (just other folders)
+    for(i=2;i<=d.dboxpathparts.length;i++){
+      if($.inArray(d.dboxpathparts.slice(0,i).join('/'), folderPaths) === -1) {
+        folderPaths.push(d.dboxpathparts.slice(0,i).join('/'))
+        pathPartsArray.push(d.dboxpathparts.slice(0,i))
+      }
+    }
+  });
+
+  var rollup = d3.nest()
+    .key(function(d){ return d.length; })
+    .sortKeys(d3.ascending)
+    .sortValues(function(a,b){ return d3.ascending(a.join('/'), b.join('/')); })
+    .entries(pathPartsArray);
+
+
+  for(var i=0; i<rollup.length; i++){
+    $.each(rollup[i].values, function(index,d){
+      // find parent nav list item and add a sub element to it
+      var navHtml = '<li><a href="#' + identity(d.slice(1).join('/')) + '" class="page-scroll">' + d.slice(-1) + '</a>' +
+          '<ul class="nav nav-stacked" data-toolkitpath="' + d.join('/') + '"></ul></li>';
+      $('#toolkit-sidebar [data-toolkitpath="' + d.slice(0,-1).join('/') + '"]').append(navHtml);
+      // find parent folder list element and add a sub folder div element to it
+      var contentsHtml = '<div id="' + identity(d.slice(1).join('/')) + '" class="toolkit-block" data-toolkitpath="' + d.join('/') + '">' +
+        '<div class="folder-name level-' + i + '">' +
+        ' &nbsp;' + d.slice(-1) + '</div><div class="contents"></div></div>';
+      $('#toolkit-contents [data-toolkitpath="' + d.slice(0,-1).join('/') + '"]').append(contentsHtml);
+      // add correct links for pretty top level folder buttons (the element id will vary for different languages)
+      if(d.length === 2) {
+        var pageLink = '#' + identity(d.slice(1).join('/'));
+        if(pageLink.indexOf('1') > -1){
+          $('.btn-resources.btn-cashforwork').attr('href', pageLink);
+        }
+        if(pageLink.indexOf('2') > -1){
+          $('.btn-resources.btn-vouchers').attr('href', pageLink);
+        }
+      }
+    });
+  }
+
+  modalitiesdata.sort(function(a,b){ return d3.descending(a.fullpath, b.fullpath); })
+  for(var i=0; i<modalitiesdata.length; i++){
+    if(systemFile(modalitiesdata[i].basename) === false){
+      var thisHtml = '<div class="toolkit-item" id="' + identity(modalitiesdata[i].dboxpathparts.slice(1).join('/') + modalitiesdata[i].basename) + '">' +
+        '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/' +
+        modalitiesdata[i].dboxpathparts.join('/') + '/' + modalitiesdata[i].basename + '">' +
+        modalitiesdata[i].basename.slice(0,modalitiesdata[i].basename.indexOf(modalitiesdata[i].ext)) + ' ' + typeIcon(modalitiesdata[i].ext) + '</a></div>';
+      $('[data-toolkitpath="' + modalitiesdata[i].dboxpathparts.join('/') + '"]').children('.contents').prepend(thisHtml);
+    }
+  }
+
+
+  $(function() {
+      $('a.page-scroll').bind('click', function(event) {
+          var $anchor = $(this);
+          $('html, body').stop().animate({
+              scrollTop: $($anchor.attr('href')).offset().top
+          }, 1500, 'easeInOutExpo');
+          event.preventDefault();
       });
+  });
 
   buildSearchBox();
 
 }
-
 
 // this section uses handlebars
 // need to escape it so jekyll doesn't mess it up
@@ -388,7 +584,18 @@ function buildToolkit(data) {
 function buildSearchBox(){
   // format the data for inclusion into the search
   var searchData = []
-  $.each(data, function(index, d){
+  $.each(toolkitdata, function(index, d){
+    // exclude system files and files not in a folder (they go higher up the page)
+    if(systemFile(d.basename) === false && d.dboxpathparts.length>1){
+      searchData.push({
+        "name": d.basename.slice(0,d.basename.indexOf(d.ext)),
+        "type": d.ext.slice(1),
+        "path": d.dboxpathparts.slice(1).join(' / '),
+        "href": '#' + identity(d.dboxpathparts.slice(1).join('/') + d.basename)
+      })
+    }
+  })
+  $.each(modalitiesdata, function(index, d){
     // exclude system files and files not in a folder (they go higher up the page)
     if(systemFile(d.basename) === false && d.dboxpathparts.length>1){
       searchData.push({
@@ -453,6 +660,6 @@ function selectedDocument(datum) {
 
 }
 
-fetchData();
+fetchToolkit();
 
 </script>

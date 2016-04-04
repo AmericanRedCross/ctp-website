@@ -243,12 +243,6 @@ a:focus {
     }
 }
 
-@media(min-width:992px) {
-  .btn-resources {
-    height: 94px;
-  }
-}
-
 .btn {
     border-radius: 0;
     text-transform: uppercase;
@@ -425,7 +419,7 @@ body {
 .btn-resources {
   white-space: normal;
 }
-.btn-resources small {
+.btn-resources {
   text-transform: none;
 }
 .img-resources {
@@ -537,7 +531,7 @@ li.evaluation.active {
   background: url(../img/divider-6.jpg) no-repeat bottom center fixed;
 }
 .module-divider {
-    width: 100%;
+    margin: 24px -20px;
     height: 400px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
