@@ -4,6 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@Federation" />
+    <meta property="og:title" content="{{site.data[locale].about.title}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{site.data[locale].meta.description}}" />
+    <meta property="twitter:description" content="{{site.data[locale].meta.description}}" />
+    <meta property="og:image" content="{{site.data[locale].meta.ogimage}}" />
+    <meta property="twitter:image" content="{{site.data[locale].meta.twitterimg}}" />
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
@@ -14,6 +24,11 @@
     {% include js.html %}
 
   </head>
+
+  <!--[if lte IE 9]>
+  <div id="browser-warning"><h4>Your browser is out of date and not supported by this website.
+  Please check out <a href="http://browsehappy.com/">Browse Happy</a> to get the lastest versions of major browsers.</h4></div>
+  <![endif]-->
 
   <body>
 
