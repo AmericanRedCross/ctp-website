@@ -274,6 +274,7 @@
           <p>{{site.data[locale].toolkit.paragraph2}}</p>
           <p class="overview-docs">
           </p>
+          <p class="toolkit-zip"></p>
           <h4>{{site.data[locale].toolkit.modules}}</h4>
           <p>
             <ul class="list-inline">
@@ -476,10 +477,17 @@ function buildToolkit() {
     for(var i=0; i<toolkitdata.length; i++){
       if(systemFile(toolkitdata[i].basename) === false){
         if(toolkitdata[i].dboxpathparts.length === 1){
-          var thisHtml = '<div id="' + identity(toolkitdata[i].dboxpathparts.slice(1).join('/') + toolkitdata[i].basename) + '">' +
-            '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/toolkit/' + toolkitdata[i].basename + '">' +
-            toolkitdata[i].basename.slice(0,toolkitdata[i].basename.indexOf(toolkitdata[i].ext)) + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
-          $('.overview-docs').append(thisHtml);
+          if(toolkitdata[i].ext === ".zip"){
+            var thisHtml = "{{site.data[locale].toolkit.zip}}" + ' ' +
+              '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/toolkit/' + toolkitdata[i].basename + '">' +
+              "{{site.data[locale].toolkit.toolkit}}" + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
+            $('.toolkit-zip').html(thisHtml);
+          } else {
+            var thisHtml = '<div id="' + identity(toolkitdata[i].dboxpathparts.slice(1).join('/') + toolkitdata[i].basename) + '">' +
+              '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/toolkit/' + toolkitdata[i].basename + '">' +
+              toolkitdata[i].basename.slice(0,toolkitdata[i].basename.indexOf(toolkitdata[i].ext)) + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
+            $('.overview-docs').append(thisHtml);
+          }
         } else {
           var thisHtml = '<div class="toolkit-item" id="' + identity(toolkitdata[i].dboxpathparts.slice(1).join('/') + toolkitdata[i].basename) + '">' +
             '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/' +
