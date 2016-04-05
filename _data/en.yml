@@ -69,3 +69,19 @@ toolkit:
   searchmessage:  "Search for a document..."
   emptymessage:   "unable to find a matching document"
   suggestlimit:   "maximum of 20 suggestions returned when searching"
+
+
+###############
+## Resources ##
+###############
+
+resources:
+  about:          "Resources"
+  title:          "Additional Resources"
+  rcrcmovement:   "RCRC Movement"
+  keydocs:        "Key Documents"
+  references:     "References"
+  ctpguidance:    "Additional CTP Guidance"
+  searchmessage:  "Search for a document..."
+  emptymessage:   "unable to find a matching document"
+  suggestlimit:   "maximum of 20 suggestions returned when searching"
