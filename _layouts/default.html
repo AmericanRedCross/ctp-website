@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
+    {% include get_locale.html %}
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@Federation" />
     <meta property="og:title" content="{{site.data[locale].about.title}}" />
@@ -25,12 +26,12 @@
 
   </head>
 
-  <!--[if lte IE 9]>
-  <div id="browser-warning"><h4>Your browser is out of date and not supported by this website.
-  Please check out <a href="http://browsehappy.com/">Browse Happy</a> to get the lastest versions of major browsers.</h4></div>
-  <![endif]-->
-
   <body>
+
+    <!--[if lte IE 9]>
+    <div id="browser-warning"><h4>Your browser is out of date and not supported by this website.
+    Please check out <a href="http://browsehappy.com/">Browse Happy</a> to get the lastest versions of major browsers.</h4></div>
+    <![endif]-->
 
   {{ content }}
 
