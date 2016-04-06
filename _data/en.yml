@@ -4,7 +4,7 @@
 
 meta:
   description:    "Cash transfer based programming (CTP) is an effective and flexible way to support people affected by emergencies, maintaining their dignity and choice, while fostering local economies. CTP includes all forms of cash and voucher-based assistance. The Cash in Emergencies Toolkit has been devised as a means to make tools, practical guidance and minimum standards easily accessible to staff and volunteers."
-  ogimg:        "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-en.jpg"
+  ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-en.jpg"
   twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-toolkit/gh-pages/img/twitter-img-en.jpg"
 
 ####################
@@ -36,6 +36,8 @@ about:
   title:          "About the Cash in Emergencies Toolkit"
   paragraph1:     "Cash transfer based programming (CTP) is an effective and flexible way to support people affected by emergencies, maintaining their dignity and choice, while fostering local economies. CTP includes all forms of cash and voucher-based assistance."
   paragraph2:     "The Cash in Emergencies Toolkit has been devised by the International Red Cross and Red Crescent Movement as a means to make tools, practical guidance and minimum standards easily accessible to staff and volunteers. The toolkit should inform and guide the implementation of CTP, to improve the quality of CTP at the different phases of the project cycle."
+  toolkit:        "Explore the toolkit"
+  toolkiturl:     "/toolkit/"
 
 #####################
 ## FEEDBACK ##

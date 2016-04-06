@@ -4,7 +4,7 @@
 
 meta:
   description:    "(translate) Cash transfer based programming (CTP) is an effective and flexible way to support people affected by emergencies, maintaining their dignity and choice, while fostering local economies. CTP includes all forms of cash and voucher-based assistance. The Cash in Emergencies Toolkit has been devised as a means to make tools, practical guidance and minimum standards easily accessible to staff and volunteers."
-  ogimg:        "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-es.jpg"
+  ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-es.jpg"
   twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-toolkit/gh-pages/img/twitter-img-es.jpg"
 
 ####################
@@ -36,6 +36,8 @@ about:
   title:          "Sobre el Efectivo en Situaciones de Emergencia Toolkit"
   paragraph1:     "Transferencia de dinero en efectivo de programación basado (CTP) es una manera eficaz y flexible para apoyar a las personas afectadas por situaciones de emergencia, manteniendo su dignidad y la elección, mientras que el fomento de la economía local. CTP incluye todas las formas de dinero en efectivo y la asistencia basada en el comprobante."
   paragraph2:     "El efectivo en situaciones de emergencia kit de herramientas ha sido ideado por la Cruz Roja como un medio para hacer herramientas, una guía práctica y las normas mínimas de fácil acceso para el personal y los voluntarios. El conjunto de instrumentos debería informar y orientar la aplicación de CTP, para mejorar la calidad de la CTP en las diferentes fases del ciclo del proyecto."
+  toolkit:        "Explore the toolkit"
+  toolkiturl:     "/es/toolkit/"
 
 #####################
 ## FEEDBACK ##
