@@ -4,6 +4,9 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>{{site.data[locale].about.title}}</h2>
+            <!--[if lte IE 9]>
+            <div id="browser-warning"><h4>{{site.data[locale].about.iewarning}}</h4></div>
+            <![endif]-->
             <p>{{site.data[locale].about.paragraph1}}</p>
             <p>{{site.data[locale].about.paragraph2}}</p>
 
