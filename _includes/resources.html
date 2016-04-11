@@ -268,6 +268,8 @@
       <div class="text-center">
           <h2>{{site.data[locale].resources.title}}</h2>
 
+          <div id="error-resources" style="display:none;"><p>{{site.data[locale].resources.loaderror}}</p></div>
+          <div id="grouped-resources">
           <div class="row">
             <div class="col-sm-6 col-md-4 col-md-offset-2">
                 <img class="img-resources img-circle" src="/img/keydocuments.jpg" alt="{{site.data[locale].resources.rcrcmovement}} {{site.data[locale].resources.keydocs}}">
@@ -289,6 +291,8 @@
           </div>
           <div><small>({{site.data[locale].resources.suggestlimit}})</small></div>
         </p>
+        </div>
+
       </div>
 
       <div id="resources-contents">
@@ -386,10 +390,20 @@ function fetchResources(){
   $.ajax({
     type: 'GET',
     url: 'http://webviz.redcross.org/ctp/resources/' + language,
-    dataType: 'JSON'
-  }).done(function(response){
-    resourcesdata = response
-    buildResources();
+    dataType: 'JSON',
+    error: function(){
+      $("#error-resources").show();
+      $("#grouped-resources").hide();
+    },
+    success: function(response){
+      resourcesdata = (response === undefined) ? [] : response;
+      if(resourcesdata.length > 0){
+        buildResources();
+      } else {
+        $("#error-resources").show();
+        $("#grouped-resources").hide();
+      }
+    }
   });
 }
 

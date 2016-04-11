@@ -270,6 +270,9 @@
       <div class="menu-btn"><i class="fa fa-bars"></i></div>
       <div class="text-center">
           <h2>{{site.data[locale].toolkit.title}}</h2>
+
+        <div id="error-toolkit" style="display:none;"><p>{{site.data[locale].toolkit.loaderror}}</p></div>
+        <div id="grouped-toolkit">
           <p>{{site.data[locale].toolkit.paragraph1}}</p>
           <p>{{site.data[locale].toolkit.paragraph2}}</p>
           <p class="overview-docs">
@@ -285,21 +288,30 @@
               <li><a href="#" class="page-scroll btn btn-default btn-lg btn-module btn-evaluation">{{site.data[locale].toolkit.module5}}</a></li>
             </ul>
           </p>
+
+        </div>   <!--  / #grouped-tookit   -->
+
           <h4>{{site.data[locale].toolkit.modalities}}</h4>
+
+          <div id="error-modalities" style="display:none;"><p>{{site.data[locale].toolkit.loaderror}}</p></div>
+          <div id="grouped-modalities">
           <p>
             <ul class="list-inline">
               <li><a href="#" class="page-scroll btn btn-default btn-lg btn-resources btn-cashforwork">{{site.data[locale].toolkit.cashforwork}}</a></li>
               <li><a href="#" class="page-scroll btn btn-default btn-lg btn-resources btn-vouchers">{{site.data[locale].toolkit.vouchers}}</a></li>
             </ul>
           </p>
+          </div>
           <img class="img-resources img-circle" src="/img/modalities.jpg" alt="join">
 
+        <div id="grouped-searchbox">  <!-- hide if errors -->
         <p>
           <div id="search-box">
           <input class="typeahead" type="text" placeholder="{{site.data[locale].toolkit.searchmessage}}">
           </div>
           <div><small>({{site.data[locale].toolkit.suggestlimit}})</small></div>
         </p>
+        </div>
       </div>
 
       <div id="toolkit-contents">
@@ -401,10 +413,23 @@ function fetchToolkit(){
   $.ajax({
     type: 'GET',
     url: 'http://webviz.redcross.org/ctp/toolkit/' + language,
-    dataType: 'JSON'
-  }).done(function(response){
-    toolkitdata = response
-    buildToolkit();
+    dataType: 'JSON',
+    error: function(){
+      toolkitdata = [];
+      $("#error-toolkit").show();
+      $("#grouped-toolkit").hide();
+      fetchModalities();
+    },
+    success: function(response){
+      toolkitdata = (response === undefined) ? [] : response;
+      if(toolkitdata.length > 0){
+        buildToolkit();
+      } else {
+        $("#error-toolkit").show();
+        $("#grouped-toolkit").hide();
+        fetchModalities();
+      }
+    }
   });
 }
 
@@ -479,7 +504,7 @@ function buildToolkit() {
         if(toolkitdata[i].dboxpathparts.length === 1){
           if(toolkitdata[i].ext === ".zip"){
             var thisHtml = "{{site.data[locale].toolkit.zip}}" + ' ' +
-              '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/toolkit/' + toolkitdata[i].basename + '">' +
+              '<a target="_blank" href="http://webviz.redcross.org/ctp/adocs/' + language + '/toolkit/' + toolkitdata[i].basename + '">' +
               "{{site.data[locale].toolkit.toolkit}}" + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
             $('.toolkit-zip').html(thisHtml);
           } else {
@@ -506,11 +531,24 @@ function buildToolkit() {
 function fetchModalities(){
   $.ajax({
     type: 'GET',
-    url: 'http://webviz.redcross.org/ctp/modalities/' + language,
-    dataType: 'JSON'
-  }).done(function(response){
-    modalitiesdata = response
-    buildModalities();
+    url: 'http://webviz.redcross.org/ctp/amodalities/' + language,
+    dataType: 'JSON',
+    error: function(){
+      modalitiesdata = [];
+      $("#error-modalities").show();
+      $("#grouped-modalities").hide();
+      buildSearchBox();
+    },
+    success: function(response){
+      modalitiesdata = (response === undefined) ? [] : response;
+      if(modalitiesdata.length > 0){
+        buildModalities();
+      } else {
+        $("#error-modalities").show();
+        $("#grouped-modalities").hide();
+        buildSearchBox();
+      }
+    }
   });
 }
 
@@ -614,6 +652,9 @@ function buildSearchBox(){
       })
     }
   })
+
+  if(searchData.length === 0){ $("#grouped-searchbox").hide(); }
+
   // constructs the suggestion engine
   var documents = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name' , 'type', 'path'),

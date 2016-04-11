@@ -72,6 +72,7 @@ toolkit:
   title:          "Explore the Toolkit"
   paragraph1:     "The Cash in Emergencies Toolkit is organized in modules, each corresponding to a different phase of the project cycle."
   paragraph2:     "Each module is divided in steps and sub-steps. They are indicative and not necessarily sequential. The user may need to move back and forth to reach the intended results. The user may also need to skip some of the steps or sub-steps proposed, due to time and resource constraints that are common in an emergency context."
+  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
   zip:            "Explore the toolkit documents below or download the entire"
   toolkit:        "toolkit"
   modules:        "You will find 5 modules in the toolkit:"
@@ -95,6 +96,7 @@ toolkit:
 resources:
   about:          "Resources"
   title:          "Additional Resources"
+  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
   rcrcmovement:   "RCRC Movement"
   keydocs:        "Key Documents"
   references:     "References"
