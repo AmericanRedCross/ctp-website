@@ -267,6 +267,14 @@
   </nav>
     <!-- Toolkit content -->
     <div id="toolkit" class="">
+
+      <!--[if lte IE 9]>
+        <section id="browser-warning">
+          {{site.data[locale].iewarning}}
+        </section>
+      <![endif]-->
+
+
       <div class="menu-btn"><i class="fa fa-bars"></i></div>
       <div class="text-center">
           <h2>{{site.data[locale].toolkit.title}}</h2>
@@ -531,7 +539,7 @@ function buildToolkit() {
 function fetchModalities(){
   $.ajax({
     type: 'GET',
-    url: 'http://webviz.redcross.org/ctp/amodalities/' + language,
+    url: 'http://webviz.redcross.org/ctp/modalities/' + language,
     dataType: 'JSON',
     error: function(){
       modalitiesdata = [];
