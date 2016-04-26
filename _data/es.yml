@@ -3,7 +3,7 @@
 ##################
 
 meta:
-  description:    "(translate) Cash transfer based programming (CTP) is an effective and flexible way to support people affected by emergencies, maintaining their dignity and choice, while fostering local economies. CTP includes all forms of cash and voucher-based assistance. The Cash in Emergencies Toolkit has been devised as a means to make tools, practical guidance and minimum standards easily accessible to staff and volunteers."
+  description:    "La Programación de Transferencia en Efectivo (PTE) es una manera efectiva y flexible para apoyar a gente afectada por desastres, manteniendo su dignidad y poder de decisión  y a la vez fomentando la economía local. PTE incluye todo tipo de asistencia basada en la transferencia de dinero o vales. La Caja de Herramientas para PTE en Emergencias ha sido diseñada como un medio por el cual herramientas, guías prácticas y estándares mínimos pueden ser accedidos fácilmente por personal y voluntarios."
   ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-es.jpg"
   twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-toolkit/gh-pages/img/twitter-img-es.jpg"
 
@@ -18,90 +18,90 @@ nav_home:
   text:           "Inicio"
   url:            "/es/"
 nav:
-  - text:         "Toolkit"
-    url:          "/es/toolkit/"
-  - text:         "Resources"
-    url:          "/es/resources/"
+  - text:         "Caja de Herramientas"
+    url:          "/es/caja-de-herramientas/"
+  - text:         "Recursos"
+    url:          "/es/recursos/"
 
 #############
 ## LANDING ##
 #############
 
 landing:
-  movement:       "Movimiento Internacional de la Cruz Roja y de la Media Luna Roja"
-  title:          "Caja de herramientas para PTE en emergencias"
+  movement:       "Movimiento Internacional de la Cruz Roja y de la Media Luna Roja"
+  title:          "Caja de Herramientas para PTE en Emergencias"
 
 ###########
 ## ABOUT ##
 ###########
 
 about:
-  title:          "Sobre el Efectivo en Situaciones de Emergencia Toolkit"
-  paragraph1:     "Transferencia de dinero en efectivo de programación basado (CTP) es una manera eficaz y flexible para apoyar a las personas afectadas por situaciones de emergencia, manteniendo su dignidad y la elección, mientras que el fomento de la economía local. CTP incluye todas las formas de dinero en efectivo y la asistencia basada en el comprobante."
-  paragraph2:     "El efectivo en situaciones de emergencia kit de herramientas ha sido ideado por la Cruz Roja como un medio para hacer herramientas, una guía práctica y las normas mínimas de fácil acceso para el personal y los voluntarios. El conjunto de instrumentos debería informar y orientar la aplicación de CTP, para mejorar la calidad de la CTP en las diferentes fases del ciclo del proyecto."
-  toolkit:        "Explore the toolkit"
-  toolkiturl:     "/es/toolkit/"
+  title:          "Sobre la Caja de Herramientas para PTE en Emergencias"
+  paragraph1:     "La Programación de Transferencia en Efectivo (PTE) es una manera efectiva y flexible para apoyar a gente afectada por desastres, manteniendo su dignidad y poder de decisión  y a la vez fomentando la economía local. PTE incluye todo tipo de asistencia basada en la transferencia de dinero o vales."
+  paragraph2:     "La caja de herramientas para PTE en Emergencias ha sido diseñada por el Movimiento Internacional de la Cruz Roja y de la Media Luna Roja  como un medio por el cual herramientas, guías prácticas y estándares mínimos pueden ser accedidos fácilmente por personal y voluntarios.  La caja de herramientas debe informar y guiar la implementación de PTE, para poder mejorar la calidad de PTE durante las distintas fases del ciclo de proyecto."
+  toolkit:        "Explore la Caja De Herramientas"
+  toolkiturl:     "/es/caja-de-herramientas/"
 
 #####################
 ## FEEDBACK ##
 #####################
 
 feedback:
-  title:          "Feedback"
-  paragraph1:     "The Cash in Emergencies Toolkit has been based on tools, guidance and experience both from within the International Red Cross and Red Crescent Movement and from other humanitarian organisations."
-  paragraph2:     "Suggestions for improvement of tools are welcome and shall inform the periodic update of the Toolkit. For technical issues with the website please send an <a href=\"mailto:daniel.joseph@redcross.org\">email</a>."
-  form_btn:       "Feedback Form"
-  social:         "Share This"
-  twitter:        "On Twitter"
-  tweet:          "Caja de herramientas para PTE en emergencias: http://rcmcash.org/ via @Federation"
-  fb:             "On Facebook"
+  title:          "Comentarios y Sugerencias"
+  paragraph1:     "La caja de herramientas para PTE en emergencias se ha basado en herramientas, orientación y experiencia, tanto del Movimiento Internacional de la Cruz Roja y Media Luna Roja como de otras organizaciones humanitarias."
+  paragraph2:     "Comentarios y Sugerencias para la mejora de la herramienta son bienvenidos e informarán la actualización periódica de la caja de herramientas. Si tiene problemas técnicos con la página web por favor envíe un <a href=\"mailto:daniel.joseph@redcross.org\">correo electrónico</a>."
+  form_btn:       "Formulario - Comentarios y Sugerencias"
+  social:         "Comparte a través de:"
+  twitter:        "Twitter"
+  tweet:          "Caja de Herramientas para PTE en Emergencias: http://rcmcash.org/ via @Federation"
+  fb:             "Facebook"
 
 #####################
 ## ACKNOWLEDGEMENT ##
 #####################
 
 acknowledgment:
-  title:          "Acknowledgment"
-  text1:          "The Cash in Emergencies Toolkit was made possible thanks to the support of:"
-  text2:          "The Cash in Emergencies Toolkit translations were made available by ECHO"
+  title:          "Reconocimientos"
+  text1:          "La caja de herramientas para PTE en emergencias fue posible gracias al apoyo de:"
+  text2:          "The translations of the Cash in Emergencies were funded by European Union Humanitarian Aid."
 
 #############
 ## TOOLKIT ##
 #############
 
 toolkit:
-  about:          "About"
-  title:          "Explore the Toolkit"
-  paragraph1:     "The Cash in Emergencies Toolkit is organized in modules, each corresponding to a different phase of the project cycle."
-  paragraph2:     "Each module is divided in steps and sub-steps. They are indicative and not necessarily sequential. The user may need to move back and forth to reach the intended results. The user may also need to skip some of the steps or sub-steps proposed, due to time and resource constraints that are common in an emergency context."
+  about:          "Sobre la Caja de Herramientas"
+  title:          "Explore la Caja De Herramientas"
+  paragraph1:     "La caja de herramientas para PTE en emergencias está  organizada en módulos, cada módulo corresponde a una fase distinta dentro del ciclo de proyecto."
+  paragraph2:     "Cada módulo está dividido en pasos y subpasos. Estos son indicativos y no necesariamente secuenciales. Es posible que el/la usuari@ necesite avanzar y retroceder entre pasos y subpasos para alcanzar los resultados deseados. También es posible que el/la usuari@ tenga que saltar algunos de los pasos o subpasos debido a limitaciones de tiempo y recursos ya que estas son limitaciones comunes en contextos de emergencia."
   loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
-  zip:            "Explore the toolkit documents below or download the entire"
-  toolkit:        "toolkit"
-  modules:        "You will find 5 modules in the toolkit:"
+  zip:            "Explora los documentos de la caja de herramientas aquí abajo o descargue toda"
+  toolkit:        "la caja de herramientas"
+  modules:        "Encontrarás 5 módulos en la caja de herramientas:"
   module1:        "Preparación"
-  module2:        "Evaluación <br> de necesidades"
-  module3:        "Análisis <br> de respuestas"
+  module2:        "Evaluación <br> de Necesidades"
+  module3:        "Análisis <br> de Respuestas"
   module4:        "Implementation"
-  module5:        "Monitoreo <br> y evaluación"
-  modalities:     "Other Tools / Modalities:"
+  module5:        "Monitoreo <br> y Evaluación"
+  modalities:     "Otras Herramientas / Modalidades:"
   cashforwork:    "Cash for Work"
-  vouchers:       "Vouchers"
-  searchmessage:  "Search for a document..."
-  emptymessage:   "unable to find a matching document"
-  suggestlimit:   "maximum of 20 suggestions returned when searching"
+  vouchers:       "Vales"
+  searchmessage:  "Busque un documento..."
+  emptymessage:   "no se encontró documento coincidente"
+  suggestlimit:   "búsqueda regresa un máximo de 20 sugerencias"
 
 ###############
 ## Resources ##
 ###############
 
 resources:
-  about:          "Resources"
-  title:          "Additional Resources"
+  about:          "Recursos"
+  title:          "Recursos Adicionales"
   loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
-  rcrcmovement:   "RCRC Movement"
-  keydocs:        "Key Documents"
-  references:     "References"
-  ctpguidance:    "Additional CTP Guidance"
-  searchmessage:  "Search for a document..."
-  emptymessage:   "unable to find a matching document"
-  suggestlimit:   "maximum of 20 suggestions returned when searching"
+  rcrcmovement:   "Movimiento Internacional de la Cruz Roja y Media Luna Roja"
+  keydocs:        "Documentos Clave"
+  references:     "Referencias"
+  ctpguidance:    "Orientación de PTE adicional"
+  searchmessage:  "Busque un documento..."
+  emptymessage:   "no se encontró documento coincidente"
+  suggestlimit:   "búsqueda regresa un máximo de 20 sugerencias"

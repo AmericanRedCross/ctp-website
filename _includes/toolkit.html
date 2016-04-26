@@ -254,12 +254,12 @@
 
     <div class="nav-wrapper">
 
-      <ul class="nav nav-stacked nav-custom" style="padding-top:20px;" data-toolkitpath="toolkit" >
+      <ul class="nav nav-stacked nav-custom" style="padding-top:20px;" data-toolkitpath="1. toolkit" >
         <li><a href="#toolkit" class="page-scroll">{{site.data[locale].toolkit.about}}</a></li>
           <!-- . . . toolkit nav menu goes here . . . -->
       </ul>
       <div style="height:12px;"></div>
-      <ul class="nav nav-stacked nav-custom" data-toolkitpath="modalities" >
+      <ul class="nav nav-stacked nav-custom" data-toolkitpath="2. modalities" >
 
           <!-- . . . modalities nav menu goes here . . . -->
       </ul>
@@ -323,11 +323,11 @@
       </div>
 
       <div id="toolkit-contents">
-        <div data-toolkitpath="toolkit" class="toolkit-block">
+        <div data-toolkitpath="1. toolkit" class="toolkit-block">
             <div class="contents"></div>
             <!-- . . . folders and file links go here . . . -->
         </div>
-        <div data-toolkitpath="modalities" class="toolkit-block">
+        <div data-toolkitpath="2. modalities" class="toolkit-block">
             <div class="contents"></div>
             <!-- . . . folders and file links go here . . . -->
         </div>
@@ -512,12 +512,12 @@ function buildToolkit() {
         if(toolkitdata[i].dboxpathparts.length === 1){
           if(toolkitdata[i].ext === ".zip"){
             var thisHtml = "{{site.data[locale].toolkit.zip}}" + ' ' +
-              '<a target="_blank" href="http://webviz.redcross.org/ctp/adocs/' + language + '/toolkit/' + toolkitdata[i].basename + '">' +
+              '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/1. toolkit/' + toolkitdata[i].basename + '">' +
               "{{site.data[locale].toolkit.toolkit}}" + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
             $('.toolkit-zip').html(thisHtml);
           } else {
             var thisHtml = '<div id="' + identity(toolkitdata[i].dboxpathparts.slice(1).join('/') + toolkitdata[i].basename) + '">' +
-              '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/toolkit/' + toolkitdata[i].basename + '">' +
+              '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/1. toolkit/' + toolkitdata[i].basename + '">' +
               toolkitdata[i].basename.slice(0,toolkitdata[i].basename.indexOf(toolkitdata[i].ext)) + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
             $('.overview-docs').append(thisHtml);
           }
