@@ -430,10 +430,11 @@ body {
   text-transform: none;
 }
 .img-resources {
-  height: 175px;
+  max-height: 175px;
+  max-width: 175px;
+  width: 100%;
   margin-bottom: 25px;
 }
-
 
 .substep-name {
     margin: 0 0 6px;

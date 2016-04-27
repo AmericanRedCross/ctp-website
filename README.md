@@ -3,7 +3,7 @@
 The Dropbox folder hierarchy needs to be as follows:
 
 - RCM CiE Toolkit Final
-  - en / es / etc. (ISO 639-1 two-letter lanugage code)
+  - en / es / etc. (ISO 639-1 two-letter language code)
     - 1. toolkit
       - *(overview toolkit docs go here)*
       - *(a zip of the entire toolkit should be saved here)*

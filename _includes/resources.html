@@ -278,16 +278,43 @@
           <div id="error-resources" style="display:none;"><p>{{site.data[locale].resources.loaderror}}</p></div>
           <div id="grouped-resources">
           <div class="row">
-            <div class="col-sm-6 col-md-4 col-md-offset-2">
+            <div class="col-sm-3 col-xs-6">
                 <img class="img-resources img-circle" src="/img/keydocuments.jpg" alt="{{site.data[locale].resources.rcrcmovement}} {{site.data[locale].resources.keydocs}}">
                 <div class="caption">
                   <p><a href="#" class="btn btn-lg btn-default btn-resources btn-movementkeydocs page-scroll" role="button">{{site.data[locale].resources.rcrcmovement}} <br><small>{{site.data[locale].resources.keydocs}}</small></a></p>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-3 col-xs-6">
                 <img class="img-resources img-circle" src="/img/references.jpg" alt="{{site.data[locale].resources.references}} {{site.data[locale].resources.ctpguidance}}">
                 <div class="caption">
                   <p><a href="#" class="btn btn-lg btn-default btn-resources btn-ctpguidance page-scroll" role="button">{{site.data[locale].resources.references}} <br><small>{{site.data[locale].resources.ctpguidance}}</small></a></p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img class="img-resources img-circle" src="/img/movementcasestudies.jpg" alt="{{site.data[locale].resources.rcrcmovement}} {{site.data[locale].resources.casestudies}}">
+                <div class="caption">
+                  <p><a href="#" class="btn btn-lg btn-default btn-resources btn-casestudies page-scroll" role="button">{{site.data[locale].resources.rcrcmovement}} <br><small>{{site.data[locale].resources.casestudies}}</small></a></p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img class="img-resources img-circle" src="/img/cashpeerworkinggroup.jpg" alt="{{site.data[locale].resources.peerworking}}">
+                <div class="caption">
+                  <p><a href="#" class="btn btn-lg btn-default btn-resources btn-peerworking page-scroll" role="button">{{site.data[locale].resources.peerworking}}</a></p>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-sm-3 col-sm-offset-3 col-xs-6">
+                <img class="img-resources img-circle" src="/img/youtube.jpg" alt="{{site.data[locale].resources.videos}} {{site.data[locale].resources.youtube}}">
+                <div class="caption">
+                  <p><a href="https://www.youtube.com/playlist?list=PLrI6tpZ6pQmRg2nU1MEsxiKdMKPABKmlQ" target="_blank" class="btn btn-lg btn-default btn-resources btn-youtube page-scroll" role="button">{{site.data[locale].resources.videos}}&nbsp; <i class="fa fa-external-link" aria-hidden="true"></i><br><small>{{site.data[locale].resources.youtube}}</small></a></p>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img class="img-resources img-circle" src="/img/externalwebsites.jpg" alt="{{site.data[locale].resources.websites}} {{site.data[locale].resources.external}}">
+                <div class="caption">
+                  <p><a href="#" class="btn btn-lg btn-default btn-resources btn-external page-scroll disabled" disabled="disabled" role="button">{{site.data[locale].resources.websites}} <br><small>{{site.data[locale].resources.external}}</small></a></p>
                 </div>
             </div>
           </div>
@@ -455,6 +482,12 @@ function buildResources() {
         }
         if(pageLink.indexOf('2') > -1){
           $('.btn-resources.btn-ctpguidance').attr('href', pageLink);
+        }
+        if(pageLink.indexOf('3') > -1){
+          $('.btn-resources.btn-casestudies').attr('href', pageLink);
+        }
+        if(pageLink.indexOf('4') > -1){
+          $('.btn-resources.btn-peerworking').attr('href', pageLink);
         }
 
       }

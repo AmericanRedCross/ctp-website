@@ -7,7 +7,7 @@ meta:
   ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-es.jpg"
   twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-toolkit/gh-pages/img/twitter-img-es.jpg"
 
-iewarning:        "Your browser is out of date and not supported by this website. Please check out <a href=\"http://browsehappy.com/\">Browse Happy</a> to get the lastest versions of major browsers."
+iewarning:        "Su navegador no está actualizado y no es compatible con este sitio web. Por favor, haga clic aquí <a href=\"http://browsehappy.com/\">Exploración feliz</a> para obtener las versiones más actualizadas de los principales navegadores de Internet."
 
 
 ####################
@@ -63,7 +63,7 @@ feedback:
 acknowledgment:
   title:          "Reconocimientos"
   text1:          "La caja de herramientas para PTE en emergencias fue posible gracias al apoyo de:"
-  text2:          "The translations of the Cash in Emergencies were funded by European Union Humanitarian Aid."
+  text2:          "La traducción de la caja de herramientas para PTE en Emergencias fue financiada por la Unión Europea Ayuda Humanitaria."
 
 #############
 ## TOOLKIT ##
@@ -74,7 +74,7 @@ toolkit:
   title:          "Explore la Caja De Herramientas"
   paragraph1:     "La caja de herramientas para PTE en emergencias está  organizada en módulos, cada módulo corresponde a una fase distinta dentro del ciclo de proyecto."
   paragraph2:     "Cada módulo está dividido en pasos y subpasos. Estos son indicativos y no necesariamente secuenciales. Es posible que el/la usuari@ necesite avanzar y retroceder entre pasos y subpasos para alcanzar los resultados deseados. También es posible que el/la usuari@ tenga que saltar algunos de los pasos o subpasos debido a limitaciones de tiempo y recursos ya que estas son limitaciones comunes en contextos de emergencia."
-  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  loaderror:      "Lo sentimos, algo salió mal al cargar el recurso. Por favor, actualice la página. Si el problema persiste, envíe un correo electrónico a <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> con la siguiente información:  Nombre del navegador de Internet que está utilizando (nombre y versión del navegador) y la dirección URL. Gracias."
   zip:            "Explora los documentos de la caja de herramientas aquí abajo o descargue toda"
   toolkit:        "la caja de herramientas"
   modules:        "Encontrarás 5 módulos en la caja de herramientas:"
@@ -97,11 +97,17 @@ toolkit:
 resources:
   about:          "Recursos"
   title:          "Recursos Adicionales"
-  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  loaderror:      "Lo sentimos, algo salió mal al cargar el recurso. Por favor, actualice la página. Si el problema persiste, envíe un correo electrónico a <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> con la siguiente información:  Nombre del navegador de Internet que está utilizando (nombre y versión del navegador) y la dirección URL. Gracias."
   rcrcmovement:   "Movimiento Internacional de la Cruz Roja y Media Luna Roja"
   keydocs:        "Documentos Clave"
   references:     "Referencias"
   ctpguidance:    "Orientación de PTE adicional"
+  casestudies:    "Case studies, papers, reports"
+  peerworking:    "Cash Peer Working Group"
+  videos:         "Videos"
+  youtube:        "IFRC YouTube page"
+  websites:       "Links"
+  external:       "External websites"
   searchmessage:  "Busque un documento..."
   emptymessage:   "no se encontró documento coincidente"
   suggestlimit:   "búsqueda regresa un máximo de 20 sugerencias"
