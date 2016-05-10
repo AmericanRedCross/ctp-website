@@ -1,0 +1,115 @@
+##################
+## META CONTENT ##
+##################
+
+meta:
+  description:    "Les programmes de transferts monétaires (PTM) représentent un moyen efficace et flexible d’aider les personnes touchées par les crises humanitaires. Ces programmes respectent la dignité des personnes et leur choix, tout en soutenant les économies locales. Les PTM englobent toutes les formes d’aide prévoyant la distribution d’espèces ou de bons. La boîte à outils pour les transferts monétaires dans les situations d’urgence a été conçue pour rendre les outils, les directives pratiques, les normes minimales et les bonnes pratiques aisément accessibles aux volontaires et au personnel sur le terrain."
+  ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-en.jpg"
+  twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-toolkit/gh-pages/img/twitter-img-en.jpg"
+
+iewarning:      "Your browser is out of date and not supported by this website. Please check out <a href=\"http://browsehappy.com/\">Browse Happy</a> to get the lastest versions of major browsers."
+
+####################
+## HEADER CONTENT ##
+####################
+
+nav_home:
+  text:           "Page d’accueil"
+  url:            "/"
+nav:
+  - text:         "Boîte à outils"
+    url:          "/fr/boite-a-outils/"
+  - text:         "Ressources"
+    url:          "/fr/ressources/"
+
+#############
+## LANDING ##
+#############
+
+landing:
+  movement:       "le Mouvement international de la Croix-Rouge et du Croissant-Rouge"
+  title:          "Boîte à outils pour les transferts monétaires dans les situations d’urgence"
+
+###########
+## ABOUT ##
+###########
+
+about:
+  title:          "A propos de la boîte à outils pour les transferts monétaires dans les situations d’urgence"
+  paragraph1:     "Les programmes de transferts monétaires (PTM) représentent un moyen efficace et flexible d’aider les personnes touchées par les crises humanitaires. Ces programmes respectent la dignité des personnes et leur choix, tout en soutenant les économies locales."
+  paragraph2:     "La Boîte à outils pour les transferts monétaires dans les situations d’urgence a été conçue par le Mouvement international de la Croix-Rouge et du Croissant-Rouge pour rendre les outils, les directives pratiques, les normes minimales et les bonnes pratiques aisément accessibles aux volontaires et au personnel sur le terrain. L’objectif est d’améliorer la qualité des programmes de transferts monétaires à toutes les étapes du cycle de projet."
+  toolkit:        "Explorer la boîte à outils"
+  toolkiturl:     "/fr/boite-a-outils/"
+
+#####################
+## FEEDBACK ##
+#####################
+
+feedback:
+  title:          "Suggestions"
+  paragraph1:     "La boîte à outils a été conçue en se basant sur les outils, les guides et l’expérience du Mouvement international de la Croix-Rouge et du Croissant-Rouge ainsi que d’autres organisations humanitaires."
+  paragraph2:     "Les suggestions pour améliorer les outils sont les bienvenues et aideront à actualiser régulièrement la boîte à outils. Pour des problèmes techniques avec le site internet, merci d’envoyer <a href=\"mailto:daniel.joseph@redcross.org\">un courriel</a>."
+  form_btn:       "Formulaire de suggestions"
+  social:         "Partager cette page"
+  twitter:        "Sur Twitter"
+  tweet:          "Boîte à outils pour les transferts monétaires dans les situation d’urgence: http://rcmcash.org/ via @Federation"
+  fb:             "Sur Facebook"
+
+
+#####################
+## ACKNOWLEDGEMENT ##
+#####################
+
+acknowledgment:
+  title:          "Remerciements"
+  text1:          "La boîte à outils a été conçue grâce au soutien de:"
+  text2:          "Les traductions de la boîte à outils ont été financées par l’Union Européenne Aide humanitaire et protection civile."
+
+#############
+## TOOLKIT ##
+#############
+
+toolkit:
+  about:          "A propos"
+  title:          "Explorer la boîte à outils"
+  paragraph1:     "La boîte à outils est organisée en modules, chacun correspondant à une phase différente du cycle de projet."
+  paragraph2:     "Chaque module est divisé en étapes, elles-mêmes divisées en étapes subsidiaires. Ces étapes sont indicatives et ne sont pas nécessairement successives. L’utilisateur peut devoir aller et venir dans les modules pour trouver les informations nécessaires. Par ailleurs, il se peut que l’utilisateur doive sauter certaines des étapes ou des étapes subsidiaires proposées, en raison du manque de temps et de ressources, un problème courant dans les situations d’urgence."
+  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  zip:            "Explorer les documents de la boîte à outils ci-dessous ou télécharger la boîte à outil complète"
+  toolkit:        "Boîte à outils"
+  modules:        "Il y a 5 modules dans la boîte à outils:"
+  module1:        "Preparation"
+  module2:        "Evaluation"
+  module3:        "Analyse<br>de la réponse"
+  module4:        "Mise<br>en oeuvre"
+  module5:        "Suivi et<br>évaluation"
+  modalities:     "Autres outils / modalités:"
+  cashforwork:    "Argent contre travail"
+  vouchers:       "Bons"
+  searchmessage:  "Chercher un document..."
+  emptymessage:   "pas de document correspondant"
+  suggestlimit:   "20 suggestions maximum par recherche"
+
+
+###############
+## Resources ##
+###############
+
+resources:
+  about:          "Ressources"
+  title:          "Ressources complémentaires"
+  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  rcrcmovement:   "Mouvement CRCR"
+  keydocs:        "Documents clés"
+  references:     "Références"
+  ctpguidance:    "Guides PTM complémentaires"
+  casestudies:    "Case studies, papers, reports"
+  peerworking:    "Cash Peer Working Group"
+  videos:         "Videos"
+  youtube:        "IFRC YouTube page"
+  websites:       "Links"
+  external:       "External websites"
+  trainings:      "Trainings"
+  searchmessage:  "Chercher un document..."
+  emptymessage:   "pas de document correspondant"
+  suggestlimit:   "20 suggestions maximum par recherche"

@@ -108,6 +108,7 @@ resources:
   youtube:        "IFRC YouTube page"
   websites:       "Links"
   external:       "External websites"
+  trainings:      "Trainings"
   searchmessage:  "Busque un documento..."
   emptymessage:   "no se encontró documento coincidente"
   suggestlimit:   "búsqueda regresa un máximo de 20 sugerencias"

@@ -63,7 +63,7 @@ feedback:
 acknowledgment:
   title:          "Acknowledgment"
   text1:          "The Cash in Emergencies Toolkit was made possible thanks to the support of:"
-  text2:          "The translations of the Cash in Emergencies were funded by European Union Humanitarian Aid."
+  text2:          "The translations of the Cash in Emergencies Toolkit were funded by European Union Humanitarian Aid."
 
 #############
 ## TOOLKIT ##
@@ -109,6 +109,7 @@ resources:
   youtube:        "IFRC YouTube page"
   websites:       "Links"
   external:       "External websites"
+  trainings:      "Trainings"
   searchmessage:  "Search for a document..."
   emptymessage:   "unable to find a matching document"
   suggestlimit:   "maximum of 20 suggestions returned when searching"
