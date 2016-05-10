@@ -15,7 +15,7 @@ iewarning:      "Your browser is out of date and not supported by this website. 
 
 nav_home:
   text:           "Page d’accueil"
-  url:            "/"
+  url:            "/fr/"
 nav:
   - text:         "Boîte à outils"
     url:          "/fr/boite-a-outils/"
