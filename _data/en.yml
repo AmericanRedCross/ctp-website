@@ -98,12 +98,12 @@ toolkit:
 
 resources:
   about:          "Resources"
-  title:          "Additional Resources"
+  title:          "Red Cross Red Crescent Movement Resources"
   loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
   guidance:       "Guidance"
   keydocs:        "Key documents and additional CTP guidance"
   learning:       "Learning"
-  casestudies:    "Case studies, fact sheets, and reports"
+  casestudies:    "Case studies and fact sheets"
   training:       "Training"
   calendar:       "Calendar and material"
   coordination:   "Coordination"
