@@ -21,6 +21,8 @@ nav:
     url:          "/fr/boite-a-outils/"
   - text:         "Ressources"
     url:          "/fr/ressources/"
+  - text:         "Suggestions"
+    url:          "/fr/#suggestions"
 
 #############
 ## LANDING ##
@@ -46,6 +48,7 @@ about:
 #####################
 
 feedback:
+  id:             "suggestions"
   title:          "Suggestions"
   paragraph1:     "La boîte à outils a été conçue en se basant sur les outils, les guides et l’expérience du Mouvement international de la Croix-Rouge et du Croissant-Rouge ainsi que d’autres organisations humanitaires."
   paragraph2:     "Les suggestions pour améliorer les outils sont les bienvenues et aideront à actualiser régulièrement la boîte à outils. Pour des problèmes techniques avec le site internet, merci d’envoyer <a href=\"mailto:daniel.joseph@redcross.org\">un courriel</a>."

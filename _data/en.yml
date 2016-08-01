@@ -21,6 +21,8 @@ nav:
     url:          "/toolkit/"
   - text:         "Resources"
     url:          "/resources/"
+  - text:         "Feedback"
+    url:          "/#feedback"
 
 #############
 ## LANDING ##
@@ -46,6 +48,7 @@ about:
 #####################
 
 feedback:
+  id:             "feedback"
   title:          "Feedback"
   paragraph1:     "The Cash in Emergencies Toolkit has been based on tools, guidance and experience both from within the International Red Cross and Red Crescent Movement and from other humanitarian organisations."
   paragraph2:     "Suggestions for improvement of tools are welcome and shall inform the periodic update of the Toolkit. For technical issues with the website please send an <a href=\"mailto:daniel.joseph@redcross.org\">email</a>."
