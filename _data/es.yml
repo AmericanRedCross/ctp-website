@@ -97,7 +97,7 @@ toolkit:
 
 resources:
   about:          "Recursos"
-  title:          "Red Cross Red Crescent Movement Resources"
+  title:          "Recursos del Movimiento International de la Cruz Roja y de la Media Luna Roja"
   loaderror:      "Lo sentimos, algo salió mal al cargar el recurso. Por favor, actualice la página. Si el problema persiste, envíe un correo electrónico a <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> con la siguiente información:  Nombre del navegador de Internet que está utilizando (nombre y versión del navegador) y la dirección URL. Gracias."
   guidance:       "Guías"
   keydocs:        "Documentos Claves y Guías adicionales para PTE"

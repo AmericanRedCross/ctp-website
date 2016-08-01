@@ -98,7 +98,7 @@ toolkit:
 
 resources:
   about:          "Ressources"
-  title:          "Red Cross Red Crescent Movement Resources"
+  title:          "Ressources du Mouvement de la Croix-Rouge et du Croissant-Rouge"
   loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
   guidance:       "Guides"
   keydocs:        "Documents clés et guides additionnels PTM"
