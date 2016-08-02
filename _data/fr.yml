@@ -78,7 +78,7 @@ toolkit:
   title:          "Explorer la boîte à outils"
   paragraph1:     "La boîte à outils est organisée en modules, chacun correspondant à une phase différente du cycle de projet."
   paragraph2:     "Chaque module est divisé en étapes, elles-mêmes divisées en étapes subsidiaires. Ces étapes sont indicatives et ne sont pas nécessairement successives. L’utilisateur peut devoir aller et venir dans les modules pour trouver les informations nécessaires. Par ailleurs, il se peut que l’utilisateur doive sauter certaines des étapes ou des étapes subsidiaires proposées, en raison du manque de temps et de ressources, un problème courant dans les situations d’urgence."
-  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  loaderror:      "Désolé, un problème est survenu sur cette page. Merci d’actualiser la page. Si le problème persiste, merci d’envoyer un email à l’adresse <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> en précisant le nom du navigateur web que vous utilisez et l’URL. Merci."
   zip:            "Explorer les documents de la boîte à outils ci-dessous ou télécharger la boîte à outil complète"
   toolkit:        "Boîte à outils"
   modules:        "Il y a 5 modules dans la boîte à outils:"
@@ -102,7 +102,7 @@ toolkit:
 resources:
   about:          "Ressources"
   title:          "Ressources du Mouvement de la Croix-Rouge et du Croissant-Rouge"
-  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  loaderror:      "Désolé, un problème est survenu sur cette page. Merci d’actualiser la page. Si le problème persiste, merci d’envoyer un email à l’adresse <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> en précisant le nom du navigateur web que vous utilisez et l’URL. Merci."
   guidance:       "Guides"
   keydocs:        "Documents clés et guides additionnels PTM"
   learning:       "Lessons apprises"
