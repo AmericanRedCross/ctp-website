@@ -5,9 +5,9 @@
 meta:
   description:    "Les programmes de transferts monétaires (PTM) représentent un moyen efficace et flexible d’aider les personnes touchées par les crises humanitaires. Ces programmes respectent la dignité des personnes et leur choix, tout en soutenant les économies locales. Les PTM englobent toutes les formes d’aide prévoyant la distribution d’espèces ou de bons. La boîte à outils pour les transferts monétaires dans les situations d’urgence a été conçue pour rendre les outils, les directives pratiques, les normes minimales et les bonnes pratiques aisément accessibles aux volontaires et au personnel sur le terrain."
   ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-fr.jpg"
-  twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-toolkit/gh-pages/img/twitter-img-fr.jpg"
+  twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/twitter-img-fr.jpg"
 
-iewarning:      "Your browser is out of date and not supported by this website. Please check out <a href=\"http://browsehappy.com/\">Browse Happy</a> to get the lastest versions of major browsers."
+iewarning:        "Your browser is out of date and not supported by this website. Please check out <a href=\"http://browsehappy.com/\">Browse Happy</a> to get the latest versions of major browsers."
 
 ####################
 ## HEADER CONTENT ##
