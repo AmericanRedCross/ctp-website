@@ -7,7 +7,7 @@ meta:
   ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-fr.jpg"
   twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/twitter-img-fr.jpg"
 
-iewarning:        "Your browser is out of date and not supported by this website. Please check out <a href=\"http://browsehappy.com/\">Browse Happy</a> to get the latest versions of major browsers."
+iewarning:        "Votre navigateur n’est pas à jour et ne permet pas la navigation sur ce site internet. Merci de télécharger les dernières versions des navigateurs internet sur <a href=\"http://browsehappy.com/\">Browse Happy</a>."
 
 ####################
 ## HEADER CONTENT ##
