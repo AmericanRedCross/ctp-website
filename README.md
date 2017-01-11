@@ -16,3 +16,7 @@ The Dropbox folder hierarchy needs to be as follows:
       - 2. Learning *(the words should be translated but the number 2 must be included)*  
       - 3. Training *(the words should be translated but the number 3 must be included)*
       - 4. Coordination *(the words should be translated but the number 4 must be included)*
+    - 4. data management *(folder name must match this exactly)*
+      - 1. Mobile Data Collection *(the words should be translated but the number 1 must be included)*
+      - 2. Spreadsheet Tools *(the words should be translated but the number 2 must be included)*  
+      - 3. Cash IM Resourcs *(the words should be translated but the number 3 must be included)*
