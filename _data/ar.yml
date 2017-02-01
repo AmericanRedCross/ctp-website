@@ -1,0 +1,118 @@
+##################
+## META CONTENT ##
+##################
+
+meta:
+  description:    "Cash transfer based programming (CTP) is an effective and flexible way to support people affected by emergencies, maintaining their dignity and choice, while fostering local economies. CTP includes all forms of cash and voucher-based assistance. The Cash in Emergencies Toolkit has been devised as a means to make tools, practical guidance and minimum standards easily accessible to staff and volunteers."
+  ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-en.jpg"
+  twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/twitter-img-en.jpg"
+
+iewarning:        "Your browser is out of date and not supported by this website. Please check out <a href=\"http://browsehappy.com/\">Browse Happy</a> to get the latest versions of major browsers."
+
+####################
+## HEADER CONTENT ##
+####################
+
+nav_home:
+  text:           "Home"
+  url:            "/ar/"
+nav:
+  - text:         "Toolkit"
+    url:          "/ar/toolkit/"
+  - text:         "Resources"
+    url:          "/ar/resources/"
+  - text:         "Feedback"
+    url:          "/ar/#feedback"
+
+#############
+## LANDING ##
+#############
+
+landing:
+  movement:       "International Red Cross and Red Crescent Movement"
+  title:          "Cash in Emergencies Toolkit"
+
+###########
+## ABOUT ##
+###########
+
+about:
+  title:          "About the Cash in Emergencies Toolkit"
+  paragraph1:     "Cash transfer based programming (CTP) is an effective and flexible way to support people affected by emergencies, maintaining their dignity and choice, while fostering local economies. CTP includes all forms of cash and voucher-based assistance."
+  paragraph2:     "The Cash in Emergencies Toolkit has been devised by the International Red Cross and Red Crescent Movement as a means to make tools, practical guidance and minimum standards easily accessible to staff and volunteers. The toolkit should inform and guide the implementation of CTP, to improve the quality of CTP at the different phases of the project cycle."
+  toolkit:        "Explore the toolkit"
+  toolkiturl:     "/toolkit/"
+
+#####################
+## FEEDBACK ##
+#####################
+
+feedback:
+  id:             "feedback"
+  title:          "Feedback"
+  paragraph1:     "The Cash in Emergencies Toolkit has been based on tools, guidance and experience both from within the International Red Cross and Red Crescent Movement and from other humanitarian organisations."
+  paragraph2:     "Suggestions for improvement of tools are welcome and shall inform the periodic update of the Toolkit. For technical issues with the website please send an <a href=\"mailto:daniel.joseph@redcross.org\">email</a>."
+  form_btn:       "Feedback Form"
+  social:         "Share This"
+  twitter:        "On Twitter"
+  tweet:          "Cash in Emergencies Toolkit: http://rcmcash.org/ via @Federation"
+  fb:             "On Facebook"
+  fblink:         "http://rcmcash.org/"
+
+
+#####################
+## ACKNOWLEDGEMENT ##
+#####################
+
+acknowledgment:
+  title:          "Acknowledgment"
+  text1:          "The Cash in Emergencies Toolkit was made possible thanks to the support of:"
+  text2:          "The translations of the Cash in Emergencies Toolkit were funded by European Union Humanitarian Aid."
+
+#############
+## TOOLKIT ##
+#############
+
+toolkit:
+  about:          "About"
+  title:          "Explore the Toolkit"
+  paragraph1:     "The Cash in Emergencies Toolkit is organized in modules, each corresponding to a different phase of the project cycle."
+  paragraph2:     "Each module is divided in steps and sub-steps. They are indicative and not necessarily sequential. The user may need to move back and forth to reach the intended results. The user may also need to skip some of the steps or sub-steps proposed, due to time and resource constraints that are common in an emergency context."
+  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  zip:            "Explore the toolkit documents below or download the entire"
+  toolkit:        "toolkit"
+  modules:        "You will find 5 modules in the toolkit:"
+  module1:        "Preparedness"
+  module2:        "Assessment"
+  module3:        "Response<br> Analysis"
+  module4:        "Set-up &amp;<br>Implementation"
+  module5:        "Monitoring<br>&amp; Evaluation"
+  modalities:     "Other Tools / Modalities:"
+  cashforwork:    "Cash for Work"
+  vouchers:       "Vouchers"
+  searchmessage:  "Search for a document..."
+  emptymessage:   "unable to find a matching document"
+  suggestlimit:   "maximum of 20 suggestions returned when searching"
+
+
+###############
+## Resources ##
+###############
+
+resources:
+  about:          "Resources"
+  title:          "Red Cross Red Crescent Movement Resources"
+  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  guidance:       "Guidance"
+  keydocs:        "Key documents and additional CTP guidance"
+  learning:       "Learning"
+  casestudies:    "Case studies and fact sheets"
+  training:       "Training"
+  calendar:       "Calendar and material"
+  coordination:   "Coordination"
+  peerworking:    "Cash Peer Working Group"
+  videos:         "Videos"
+  youtube:        "IFRC YouTube page"
+  searchmessage:  "Search for a document..."
+  emptymessage:   "unable to find a matching document"
+  suggestlimit:   "maximum of 20 suggestions returned when searching"
