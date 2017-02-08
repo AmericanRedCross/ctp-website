@@ -122,12 +122,12 @@ resources:
 #####################
 
 datamanagement:
-  about:          "Data Managment"
-  title:          "Data Management Resources"
+  about:          "Gestión de datos"
+  title:          "Recursos para la gestión de datos"
   loaderror:      "Lo sentimos, algo salió mal al cargar el recurso. Por favor, actualice la página. Si el problema persiste, envíe un correo electrónico a <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> con la siguiente información:  Nombre del navegador de Internet que está utilizando (nombre y versión del navegador) y la dirección URL. Gracias."
-  mdc:            "Mobile Data Collection"
-  spreadhsheet:   "Spreadsheet Tools"
-  imresources:    "Cash IM Resources"
+  mdc:            "Recopilación de datos móviles"
+  spreadhsheet:   "Herramientas para hojas de cálculo"
+  imresources:    "Recursos: Manejo de Información (MI) para PTE"
   searchmessage:  "Busque un documento..."
   emptymessage:   "no se encontró documento coincidente"
   suggestlimit:   "búsqueda regresa un máximo de 20 sugerencias"
