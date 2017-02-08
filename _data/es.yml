@@ -9,7 +9,6 @@ meta:
 
 iewarning:        "Su navegador no está actualizado y no es compatible con este sitio web. Por favor, haga clic aquí <a href=\"http://browsehappy.com/\">Exploración feliz</a> para obtener las versiones más actualizadas de los principales navegadores de Internet."
 
-
 ####################
 ## HEADER CONTENT ##
 ####################
@@ -22,6 +21,8 @@ nav:
     url:          "/es/caja-de-herramientas/"
   - text:         "Recursos"
     url:          "/es/recursos/"
+  - text:         "Data Management"
+    url:          "/es/datamanagement/"
   - text:         "Comentarios"
     url:          "/es/#comentarios"
 
@@ -112,6 +113,21 @@ resources:
   peerworking:    "Grupo de Trabajo PTE"
   videos:         "Videos"
   youtube:        "FICR Página YouTube"
+  searchmessage:  "Busque un documento..."
+  emptymessage:   "no se encontró documento coincidente"
+  suggestlimit:   "búsqueda regresa un máximo de 20 sugerencias"
+
+#####################
+## Data Management ##
+#####################
+
+datamanagement:
+  about:          "Gestión de datos"
+  title:          "Recursos para la gestión de datos"
+  loaderror:      "Lo sentimos, algo salió mal al cargar el recurso. Por favor, actualice la página. Si el problema persiste, envíe un correo electrónico a <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> con la siguiente información:  Nombre del navegador de Internet que está utilizando (nombre y versión del navegador) y la dirección URL. Gracias."
+  mdc:            "Recopilación de datos móviles"
+  spreadhsheet:   "Herramientas para hojas de cálculo"
+  imresources:    "Recursos: Manejo de Información (MI) para PTE"
   searchmessage:  "Busque un documento..."
   emptymessage:   "no se encontró documento coincidente"
   suggestlimit:   "búsqueda regresa un máximo de 20 sugerencias"

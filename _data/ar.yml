@@ -21,6 +21,8 @@ nav:
     url:          "/ar/toolkit/"
   - text:         "Resources"
     url:          "/ar/resources/"
+  - text:         "Data Management"
+    url:          "/datamanagement/"
   - text:         "Feedback"
     url:          "/ar/#feedback"
 
@@ -94,7 +96,6 @@ toolkit:
   emptymessage:   "unable to find a matching document"
   suggestlimit:   "maximum of 20 suggestions returned when searching"
 
-
 ###############
 ## Resources ##
 ###############
@@ -113,6 +114,21 @@ resources:
   peerworking:    "Cash Peer Working Group"
   videos:         "Videos"
   youtube:        "IFRC YouTube page"
+  searchmessage:  "Search for a document..."
+  emptymessage:   "unable to find a matching document"
+  suggestlimit:   "maximum of 20 suggestions returned when searching"
+
+#####################
+## Data Management ##
+#####################
+
+datamanagement:
+  about:          "Data Managment"
+  title:          "Data Management Resources"
+  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  mdc:            "Mobile Data Collection"
+  spreadhsheet:   "Spreadsheet Tools"
+  imresources:    "Cash IM Resources"
   searchmessage:  "Search for a document..."
   emptymessage:   "unable to find a matching document"
   suggestlimit:   "maximum of 20 suggestions returned when searching"
