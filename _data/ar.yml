@@ -126,7 +126,7 @@ datamanagement:
   about:          "عن إدارة البيانات "
   title:          "موارد إدارة البيانات "
   loaderror:      "نعتذر، تمت مقاطعة الاتصال بالخادم. الرجاء إعادة تحديث الصفحة. إذا استمرت هذه المشكلة، الرجاء إرسال بريد الكتروني إلى <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> وذكر نوع المتصفح وعنوان الرابط. شكراً "
-  mdc:            "Mobile Data Collection"
+  mdc:            "جمع البيانات عبر الهاتف المحمول "
   spreadhsheet:   "أدوات الجداول الالكترونية "
   imresources:    "الموارد النقدية "
   searchmessage:  "البحث عن الوثائق "
