@@ -11,7 +11,9 @@
   background-color: #f5f5f5;
   padding: 80px 20px;
   position: relative;
+  {% if locale != "ar" %}
   margin-left: 240px;
+  {% endif %}
   z-index: 2;
 }
 #resources-sidebar {
@@ -251,6 +253,7 @@
 
 <div class="page-wrapper">
   <!--Nav Bar -->
+  {% if locale != "ar" %}
   <nav id="resources-sidebar" class="">
 
     <div class="nav-wrapper">
@@ -261,11 +264,13 @@
       </ul>
     </div>
   </nav>
+  {% endif %}
 
     <!-- Resources content -->
     <div id="resources" class="">
+      {% if locale != "ar" %}
       <div class="menu-btn"><i class="fa fa-bars"></i></div>
-
+      {% endif %}
       <!--[if lte IE 9]>
         <section id="browser-warning">
           {{site.data[locale].iewarning}}

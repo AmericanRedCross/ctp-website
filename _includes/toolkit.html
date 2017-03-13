@@ -11,7 +11,9 @@
   background-color: #f5f5f5;
   padding: 80px 20px;
   position: relative;
+  {% if locale != "ar" %}
   margin-left: 240px;
+  {% endif %}
   z-index: 2;
 }
 #toolkit-sidebar {
@@ -250,6 +252,7 @@
 </style>
 <div class="page-wrapper">
   <!--Nav Bar -->
+  {% if locale != "ar" %}
   <nav id="toolkit-sidebar" class="">
 
     <div class="nav-wrapper">
@@ -265,6 +268,7 @@
       </ul>
     </div>
   </nav>
+  {% endif %}
     <!-- Toolkit content -->
     <div id="toolkit" class="">
 
@@ -274,8 +278,9 @@
         </section>
       <![endif]-->
 
-
+      {% if locale != "ar" %}
       <div class="menu-btn"><i class="fa fa-bars"></i></div>
+      {% endif %}
       <div class="text-center">
           <h2>{{site.data[locale].toolkit.title}}</h2>
 

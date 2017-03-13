@@ -3,27 +3,27 @@
 ##################
 
 meta:
-  description:    "Cash transfer based programming (CTP) is an effective and flexible way to support people affected by emergencies, maintaining their dignity and choice, while fostering local economies. CTP includes all forms of cash and voucher-based assistance. The Cash in Emergencies Toolkit has been devised as a means to make tools, practical guidance and minimum standards easily accessible to staff and volunteers."
+  description:    "برامج التحويل النقدي هي أداة فعالة ومرنة تهدف إلى دعم الشعوب المتضررة من حالات الطوارئ الانسانية، والحفاظ على كرامتها وحقها في الاختيار، بالإضافة إلى تعزيز الاقتصادات المحلية. وتشمل هذه البرامج كافة أشكال المساعدات لاسيما تلك القائمة على منح قسائم أو مبالغ نقدية. وقد صممت مجموعة الأدوات المرتبطة بالتحويلات النقدية في حالات الطوارئ بشكل يسهّل وصول الموظفين والمتطوعين إلى الأدوات والإرشادات العملية والمعايير الدنيا."
   ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-en.jpg"
   twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/twitter-img-en.jpg"
 
-iewarning:        "Your browser is out of date and not supported by this website. Please check out <a href=\"http://browsehappy.com/\">Browse Happy</a> to get the latest versions of major browsers."
+iewarning:        "متصفحك قديم أو منتهي التاريخ ولا يتطابق مع هذا الموقع. الرجاء زيارة <a href=\"http://browsehappy.com/\">Browse Happy</a> للحصول على أحدث إصدارات المتصفحات."
 
 ####################
 ## HEADER CONTENT ##
 ####################
 
 nav_home:
-  text:           "Home"
+  text:           "الصفحة الرئيسية "
   url:            "/ar/"
 nav:
-  - text:         "Toolkit"
+  - text:         "مجموعة الأدوات "
     url:          "/ar/toolkit/"
-  - text:         "Resources"
+  - text:         "الموارد "
     url:          "/ar/resources/"
-  - text:         "Data Management"
-    url:          "/datamanagement/"
-  - text:         "Feedback"
+  - text:         "إدارة البيانات "
+    url:          "/ar/datamanagement/"
+  - text:         "التغذية الراجعة"
     url:          "/ar/#feedback"
 
 #############
@@ -31,18 +31,18 @@ nav:
 #############
 
 landing:
-  movement:       "International Red Cross and Red Crescent Movement"
-  title:          "Cash in Emergencies Toolkit"
+  movement:       "الحركة الدولية للصليب الأحمر والهلال الأحمر "
+  title:          "مجموعة الأدوات المرتبطة بالتحويلات النقدية في حالات الطوارئ"
 
 ###########
 ## ABOUT ##
 ###########
 
 about:
-  title:          "About the Cash in Emergencies Toolkit"
-  paragraph1:     "Cash transfer based programming (CTP) is an effective and flexible way to support people affected by emergencies, maintaining their dignity and choice, while fostering local economies. CTP includes all forms of cash and voucher-based assistance."
-  paragraph2:     "The Cash in Emergencies Toolkit has been devised by the International Red Cross and Red Crescent Movement as a means to make tools, practical guidance and minimum standards easily accessible to staff and volunteers. The toolkit should inform and guide the implementation of CTP, to improve the quality of CTP at the different phases of the project cycle."
-  toolkit:        "Explore the toolkit"
+  title:          "عن مجموعة الأدوات المرتبطة بالتحويلات النقدية في حالات الطوارئ "
+  paragraph1:     "برامج التحويل النقدي هي أداة فعالة ومرنة تهدف إلى دعم الشعوب المتضررة من حالات الطوارئ الانسانية، والحفاظ على كرامتها وحقها في الاختيار، بالإضافة إلى تعزيز الاقتصادات المحلية. وتشمل هذه البرامج كافة أشكال المساعدات لاسيما تلك القائمة على منح قسائم أو مبالغ نقدية."
+  paragraph2:     "وقد صممت الحركة الدولية للصليب الأحمر والهلال الأحمر مجموعة الأدوات المرتبطة بالتحويلات النقدية في حالات الطوارئ بشكل يسهّل وصول الموظفين والمتطوعين إلى الأدوات والإرشادات العملية والمعايير الدنيا. وتُنفّذ برامج التحويلات النقدية بالاستناد إلى هذه المجموعة من الأدوات نظراً إلى ما تقدمه من منفعة في تحسين جودة البرامج في كل مراحل المشروع."
+  toolkit:        "الاطلاع على مجموعة الأدوات "
   toolkiturl:     "/toolkit/"
 
 #####################
@@ -51,14 +51,14 @@ about:
 
 feedback:
   id:             "feedback"
-  title:          "Feedback"
-  paragraph1:     "The Cash in Emergencies Toolkit has been based on tools, guidance and experience both from within the International Red Cross and Red Crescent Movement and from other humanitarian organisations."
-  paragraph2:     "Suggestions for improvement of tools are welcome and shall inform the periodic update of the Toolkit. For technical issues with the website please send an <a href=\"mailto:daniel.joseph@redcross.org\">email</a>."
-  form_btn:       "Feedback Form"
-  social:         "Share This"
-  twitter:        "On Twitter"
-  tweet:          "Cash in Emergencies Toolkit: http://rcmcash.org/ via @Federation"
-  fb:             "On Facebook"
+  title:          "التغذية الراجعة "
+  paragraph1:     "تستند مجموعة الأدوات المرتبطة بالتحويلات النقدية في حالات الطوارئ إلى أدوات وارشادات ومراجع مستمدة من الحركة الدولية للصليب الأحمر والهلال الأحمر وغيرها من المنظمات الانسانية."
+  paragraph2:     "نرحب بأي اقتراحات حول تعديل الأدوات  و سيتم أخذها في الاعتبار خلال التحديث الدوري لهذه الأدوات. وفي حال مواجهة أي مشاكل تقنية عند استخدام الموقع الالكتروني، يرجى إرسال شكوى بهذا الشأن <a href=\"mailto:daniel.joseph@redcross.org\">عبر البريد الكتروني</a>."
+  form_btn:       "نموذج التغذية الراجعة "
+  social:         "مشاركة "
+  twitter:        "على تويتر"
+  tweet:          "مجموعة أدوات التحويل النقدي في حالات الطوارئ: http://rcmcash.org/ via @Federation"
+  fb:             "على فيسبوك"
   fblink:         "http://rcmcash.org/"
 
 
@@ -67,68 +67,68 @@ feedback:
 #####################
 
 acknowledgment:
-  title:          "Acknowledgment"
-  text1:          "The Cash in Emergencies Toolkit was made possible thanks to the support of:"
-  text2:          "The translations of the Cash in Emergencies Toolkit were funded by European Union Humanitarian Aid."
+  title:          "الشكر والتقدير"
+  text1:          "صدرت مجموعة الأدوات المرتبطة بالتحويلات النقدية في حالات الطوارئ بفضل جهود:"
+  text2:          "تولّت مجموعة المساعدات الانسانية للاتحاد الأوروبي  تمويل خدمات الترجمة لمجموعة الأدوات المرتبطة بالتحويلات النقدية في حالات الطوارئ "
 
 #############
 ## TOOLKIT ##
 #############
 
 toolkit:
-  about:          "About"
-  title:          "Explore the Toolkit"
-  paragraph1:     "The Cash in Emergencies Toolkit is organized in modules, each corresponding to a different phase of the project cycle."
-  paragraph2:     "Each module is divided in steps and sub-steps. They are indicative and not necessarily sequential. The user may need to move back and forth to reach the intended results. The user may also need to skip some of the steps or sub-steps proposed, due to time and resource constraints that are common in an emergency context."
-  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
-  zip:            "Explore the toolkit documents below or download the entire"
-  toolkit:        "toolkit"
-  modules:        "You will find 5 modules in the toolkit:"
-  module1:        "Preparedness"
-  module2:        "Assessment"
-  module3:        "Response<br> Analysis"
-  module4:        "Set-up &amp;<br>Implementation"
-  module5:        "Monitoring<br>&amp; Evaluation"
-  modalities:     "Other Tools / Modalities:"
-  cashforwork:    "Cash for Work"
-  vouchers:       "Vouchers"
-  searchmessage:  "Search for a document..."
-  emptymessage:   "unable to find a matching document"
-  suggestlimit:   "maximum of 20 suggestions returned when searching"
+  about:          "عن مجموعة الأدوات"
+  title:          "استكشف مجموعة الأدوات"
+  paragraph1:     "يتم تنظيم مجموعة الأدوات المرتبطة بالتحويلات النقدية في حالات الطوارئ في وحدات، كل منها متوافقة مع مرحلة مختلفة من مراحل دورة المشروع."
+  paragraph2:     "تقسم كل وحدة إلى خطوات رئيسية وأخرى فرعية، وهي تتسم بطابع إرشادي أكثر منه تسلسلي. وقد يضطر المستخدم إلى التنقل ذهاباً وإياباً للوصول إلى النتائج المرجوة. كما قد يضطر إلى تخطي بعض الخطوات أو الخطوات الفرعية المقترحة بسبب ضيق الوقت ومحدودية الموارد في حالات الطوارئ."
+  loaderror:      "نعتذر، تمت مقاطعة الاتصال بالخادم. الرجاء إعادة تحديث الصفحة. إذا استمرت هذه المشكلة، الرجاء إرسال بريد الكتروني إلى <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> وذكر نوع المتصفح وعنوان الرابط. شكراً "
+  zip:            "استكشف الوثائق المتعلقة بمجموعة الأدوات المدرجة فيما يلي أو حمل الملف بأكمله"
+  toolkit:        "مجموعة الأدوات "
+  modules:        "تتضمن مجموعة الأدوات خمس وحدات "
+  module1:        "التأهب "
+  module2:        "التقييم "
+  module3:        "تحليل الاستجابة "
+  module4:        "الإعداد والتنفيذ "
+  module5:        "الرصد والتقييم "
+  modalities:     "أدوات/نهج أخرى:"
+  cashforwork:    "النقد مقابل العمل "
+  vouchers:       "القسائم"
+  searchmessage:  "البحث عن الوثائق "
+  emptymessage:   "الوثيقة غير متوفرة "
+  suggestlimit:   "20 اقتراحاً كحد أقصى"
 
 ###############
 ## Resources ##
 ###############
 
 resources:
-  about:          "Resources"
-  title:          "Red Cross Red Crescent Movement Resources"
-  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
-  guidance:       "Guidance"
-  keydocs:        "Key documents and additional CTP guidance"
-  learning:       "Learning"
-  casestudies:    "Case studies and fact sheets"
-  training:       "Training"
-  calendar:       "Calendar and material"
-  coordination:   "Coordination"
-  peerworking:    "Cash Peer Working Group"
-  videos:         "Videos"
-  youtube:        "IFRC YouTube page"
-  searchmessage:  "Search for a document..."
-  emptymessage:   "unable to find a matching document"
-  suggestlimit:   "maximum of 20 suggestions returned when searching"
+  about:          "عن الموارد "
+  title:          "موارد الحركة الدولية للصليب الأحمر والهلال الأحمر "
+  loaderror:      "نعتذر، تمت مقاطعة الاتصال بالخادم. الرجاء إعادة تحديث الصفحة. إذا استمرت هذه المشكلة، الرجاء إرسال بريد الكتروني إلى <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> وذكر نوع المتصفح وعنوان الرابط. شكراً "
+  guidance:       "الإرشادات "
+  keydocs:        "الوثائق الرئيسية والإرشادات الإضافية المتعلقة ببرامج التحويل النقدي "
+  learning:       "التعلم "
+  casestudies:    "دراسات الحالة وصحائف الوقائع "
+  training:       "التدريب "
+  calendar:       "الجدول الزمني والمواد "
+  coordination:   "التنسيق "
+  peerworking:    "فريق العمل المعني بالشؤون النقدية "
+  videos:         "الفيديوهات "
+  youtube:        "صفحة الاتحاد الدولي لجمعيات الصليب الأحمر والهلال الأحمر على يوتيوب "
+  searchmessage:  "البحث عن الوثائق "
+  emptymessage:   "الوثيقة غير متوفرة "
+  suggestlimit:   "20 اقتراحاً كحد أقصى"
 
 #####################
 ## Data Management ##
 #####################
 
 datamanagement:
-  about:          "Data Managment"
-  title:          "Data Management Resources"
-  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  about:          "عن إدارة البيانات "
+  title:          "موارد إدارة البيانات "
+  loaderror:      "نعتذر، تمت مقاطعة الاتصال بالخادم. الرجاء إعادة تحديث الصفحة. إذا استمرت هذه المشكلة، الرجاء إرسال بريد الكتروني إلى <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> وذكر نوع المتصفح وعنوان الرابط. شكراً "
   mdc:            "Mobile Data Collection"
-  spreadhsheet:   "Spreadsheet Tools"
-  imresources:    "Cash IM Resources"
-  searchmessage:  "Search for a document..."
-  emptymessage:   "unable to find a matching document"
-  suggestlimit:   "maximum of 20 suggestions returned when searching"
+  spreadhsheet:   "أدوات الجداول الالكترونية "
+  imresources:    "الموارد النقدية "
+  searchmessage:  "البحث عن الوثائق "
+  emptymessage:   "الوثيقة غير متوفرة "
+  suggestlimit:   "20 اقتراحاً كحد أقصى"
