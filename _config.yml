@@ -3,4 +3,4 @@ title: Cash in Emergencies
 
 # locale settings
 default_locale:     "en"
-authorized_locales: ["en","es","fr", "ar"]
+authorized_locales: ["en","es","fr", "ar", "ru"]
