@@ -15,16 +15,16 @@ iewarning:        "Your browser is out of date and not supported by this website
 
 nav_home:
   text:           "Home"
-  url:            "/"
+  url:            "/ru/"
 nav:
   - text:         "Toolkit"
-    url:          "/toolkit/"
+    url:          "/ru/toolkit/"
   - text:         "Resources"
-    url:          "/resources/"
+    url:          "/ru/resources/"
   - text:         "Data Management"
-    url:          "/datamanagement/"
+    url:          "/ru/datamanagement/"
   - text:         "Feedback"
-    url:          "/#feedback"
+    url:          "/ru/#feedback"
 
 #############
 ## LANDING ##
