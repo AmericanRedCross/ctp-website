@@ -14,7 +14,7 @@ iewarning:        "Your browser is out of date and not supported by this website
 ####################
 
 nav_home:
-  text:           "Home"
+  text:           "Главная"
   url:            "/ru/"
 nav:
   - text:         "Toolkit"
@@ -31,17 +31,17 @@ nav:
 #############
 
 landing:
-  movement:       "International Red Cross and Red Crescent Movement"
-  title:          "Cash in Emergencies Toolkit"
+  movement:       "Международное Движение Красного Креста и Красного Полумесяца"
+  title:          "Инструментарий программ денежной помощи в чрезвычайных ситуациях"
 
 ###########
 ## ABOUT ##
 ###########
 
 about:
-  title:          "About the Cash in Emergencies Toolkit"
-  paragraph1:     "Cash transfer based programming (CTP) is an effective and flexible way to support people affected by emergencies, maintaining their dignity and choice, while fostering local economies. CTP includes all forms of cash and voucher-based assistance."
-  paragraph2:     "The Cash in Emergencies Toolkit has been devised by the International Red Cross and Red Crescent Movement as a means to make tools, practical guidance and minimum standards easily accessible to staff and volunteers. The toolkit should inform and guide the implementation of CTP, to improve the quality of CTP at the different phases of the project cycle."
+  title:          "На тему инструментарий программ денежной помощи в чрезвычайных ситуациях"
+  paragraph1:     "Программирование на основе денежных переводов (CTP) - это эффективный и гибкий способ поддержки людей, пострадавших в результате чрезвычайных ситуаций, сохранения их достоинства и выбора, одновременно поощряя местную экономику. CTP включает в себя все формы помощи наличными и ваучерами."
+  paragraph2:     "Международное движение Красного Креста и Красного Полумесяца разработало Инструмент «ПрограммА денежной помощи в чрезвычайных ситуациях» в качестве средства, обеспечивающего доступность инструментов, практических рекомендаций и минимальных стандартов для персонала и добровольцев. Инструментарий должен информировать и руководствоваться внедрением CTP, чтобы улучшить качество CTP на разных этапах проектного цикла."
   toolkit:        "Explore the toolkit"
   toolkiturl:     "/toolkit/"
 
@@ -51,8 +51,8 @@ about:
 
 feedback:
   id:             "feedback"
-  title:          "Feedback"
-  paragraph1:     "The Cash in Emergencies Toolkit has been based on tools, guidance and experience both from within the International Red Cross and Red Crescent Movement and from other humanitarian organisations."
+  title:          "ОБРАТНАЯ СВЯЗЬ"
+  paragraph1:     "Инструмент «денежная помощь в чрезвычайных ситуациях» был основан на инструментах, руководстве и опыте, как в рамках Международного движения Красного Креста и Красного Полумесяца, так и других гуманитарных организаций."
   paragraph2:     "Suggestions for improvement of tools are welcome and shall inform the periodic update of the Toolkit. For technical issues with the website please send an <a href=\"mailto:daniel.joseph@redcross.org\">email</a>."
   form_btn:       "Feedback Form"
   social:         "Share This"
@@ -67,9 +67,9 @@ feedback:
 #####################
 
 acknowledgment:
-  title:          "Acknowledgment"
-  text1:          "The Cash in Emergencies Toolkit was made possible thanks to the support of:"
-  text2:          "The translations of the Cash in Emergencies Toolkit were funded by European Union Humanitarian Aid."
+  title:          "Уведомление"
+  text1:          "Инструмент «Денежная помощь в чрезвычайных ситуациях» стал возможен благодаря поддержке:"
+  text2:          "Переводы Денежная помощь в чрезвычайных ситуациях были предоставлены ECHO."
 
 #############
 ## TOOLKIT ##
