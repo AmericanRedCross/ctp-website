@@ -3,7 +3,7 @@
 ##################
 
 meta:
-  description:    "Cash transfer based programming (CTP) is an effective and flexible way to support people affected by emergencies, maintaining their dignity and choice, while fostering local economies. CTP includes all forms of cash and voucher-based assistance. The Cash in Emergencies Toolkit has been devised as a means to make tools, practical guidance and minimum standards easily accessible to staff and volunteers."
+  description:    "Программирование на основе денежных переводов (CTP) - это эффективный и гибкий способ поддержки людей, пострадавших в результате чрезвычайных ситуаций, сохранения их достоинства и выбора, одновременно поощряя местную экономику. CTP включает в себя все формы помощи наличными и ваучерами. Инструментарий разработан как средство обеспечения доступности инструментов, практических рекомендаций и минимальных стандартов для персонала и добровольцев."
   ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-en.jpg"
   twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/twitter-img-en.jpg"
 
@@ -17,13 +17,13 @@ nav_home:
   text:           "Главная"
   url:            "/ru/"
 nav:
-  - text:         "Toolkit"
+  - text:         "Инструментарий"
     url:          "/ru/toolkit/"
-  - text:         "Resources"
+  - text:         "Ресурсы"
     url:          "/ru/resources/"
-  - text:         "Data Management"
+  - text:         "Управление данными"
     url:          "/ru/datamanagement/"
-  - text:         "Feedback"
+  - text:         "Обратная Связь"
     url:          "/ru/#feedback"
 
 #############
@@ -43,7 +43,7 @@ about:
   paragraph1:     "Программирование на основе денежных переводов (CTP) - это эффективный и гибкий способ поддержки людей, пострадавших в результате чрезвычайных ситуаций, сохранения их достоинства и выбора, одновременно поощряя местную экономику. CTP включает в себя все формы помощи наличными и ваучерами."
   paragraph2:     "Международное движение Красного Креста и Красного Полумесяца разработало Инструмент «ПрограммА денежной помощи в чрезвычайных ситуациях» в качестве средства, обеспечивающего доступность инструментов, практических рекомендаций и минимальных стандартов для персонала и добровольцев. Инструментарий должен информировать и руководствоваться внедрением CTP, чтобы улучшить качество CTP на разных этапах проектного цикла."
   toolkit:        "Explore the toolkit"
-  toolkiturl:     "/toolkit/"
+  toolkiturl:     "/ru/toolkit/"
 
 #####################
 ## FEEDBACK ##
@@ -51,15 +51,15 @@ about:
 
 feedback:
   id:             "feedback"
-  title:          "ОБРАТНАЯ СВЯЗЬ"
+  title:          "Обратная Связь"
   paragraph1:     "Инструмент «денежная помощь в чрезвычайных ситуациях» был основан на инструментах, руководстве и опыте, как в рамках Международного движения Красного Креста и Красного Полумесяца, так и других гуманитарных организаций."
-  paragraph2:     "Suggestions for improvement of tools are welcome and shall inform the periodic update of the Toolkit. For technical issues with the website please send an <a href=\"mailto:daniel.joseph@redcross.org\">email</a>."
-  form_btn:       "Feedback Form"
-  social:         "Share This"
-  twitter:        "On Twitter"
-  tweet:          "Cash in Emergencies Toolkit: http://rcmcash.org/ via @Federation"
-  fb:             "On Facebook"
-  fblink:         "http://rcmcash.org/"
+  paragraph2:     "Предложения по совершенствованию инструментов приветствуются и должны сообщать о периодическом обновлении инструментария. По техническим вопросам пожалуйста отправьте письмо по электронному адресу: <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a>."
+  form_btn:       "Форма обратной связи"
+  social:         "Поделитесь этим"
+  twitter:        "В Twitter"
+  tweet:          "Наличные деньги в наборе инструментов для чрезвычайных ситуаций: http://rcmcash.org/ru via @Federation"
+  fb:             "На Facebook"
+  fblink:         "http://rcmcash.org/ru"
 
 
 #####################
@@ -69,66 +69,66 @@ feedback:
 acknowledgment:
   title:          "Уведомление"
   text1:          "Инструмент «Денежная помощь в чрезвычайных ситуациях» стал возможен благодаря поддержке:"
-  text2:          "Переводы Денежная помощь в чрезвычайных ситуациях были предоставлены ECHO."
+  text2:          "Переводы «Денежная помощь в чрезвычайных ситуациях» были предоставлены ECHO."
 
 #############
 ## TOOLKIT ##
 #############
 
 toolkit:
-  about:          "About"
-  title:          "Explore the Toolkit"
-  paragraph1:     "The Cash in Emergencies Toolkit is organized in modules, each corresponding to a different phase of the project cycle."
-  paragraph2:     "Each module is divided in steps and sub-steps. They are indicative and not necessarily sequential. The user may need to move back and forth to reach the intended results. The user may also need to skip some of the steps or sub-steps proposed, due to time and resource constraints that are common in an emergency context."
+  about:          "На тему"
+  title:          "Изучите инструментарий"
+  paragraph1:     "Инструмент «Денежная помощь в чрезвычайных ситуациях» организован в модулях, каждый из которых соответствует разной фазе проектного цикла."
+  paragraph2:     "Каждый модуль разделен на этапы и подэтапы. Они являются ориентировочными и необязательно последовательными. Пользователю может потребоваться перемещение назад и вперед, чтобы достичь намеченных результатов. Пользователю также может потребоваться пропустить некоторые из предложенных шагов или подэтапов из-за ограничений времени и ресурсов, которые являются общими в чрезвычайном контексте."
   loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
-  zip:            "Explore the toolkit documents below or download the entire"
-  toolkit:        "toolkit"
-  modules:        "You will find 5 modules in the toolkit:"
-  module1:        "Preparedness"
-  module2:        "Assessment"
-  module3:        "Response<br> Analysis"
-  module4:        "Set-up &amp;<br>Implementation"
-  module5:        "Monitoring<br>&amp; Evaluation"
-  modalities:     "Other Tools / Modalities:"
-  cashforwork:    "Cash for Work"
-  vouchers:       "Vouchers"
-  searchmessage:  "Search for a document..."
-  emptymessage:   "unable to find a matching document"
-  suggestlimit:   "maximum of 20 suggestions returned when searching"
+  zip:            "Изучите документы инструментария ниже или загрузите весь"
+  toolkit:        "инструментарий"
+  modules:        "В наборе инструментов вы найдете 5 модулей:"
+  module1:        "Готовность"
+  module2:        "Оценка"
+  module3:        "Анализ<br> ответов"
+  module4:        "Настройка и<br>внедрение"
+  module5:        "Мониторинг<br>и оценка"
+  modalities:     "Другие инструменты / способы:"
+  cashforwork:    "Наличные деньги за работу"
+  vouchers:       "Ваучеры"
+  searchmessage:  "Поиск документа..."
+  emptymessage:   "невозможно найти соответствующий документ"
+  suggestlimit:   "не более 20 предложений, возвращенных при поиске"
 
 ###############
 ## Resources ##
 ###############
 
 resources:
-  about:          "Resources"
+  about:          "Ресурсы"
   title:          "Red Cross Red Crescent Movement Resources"
   loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
-  guidance:       "Guidance"
-  keydocs:        "Key documents and additional CTP guidance"
-  learning:       "Learning"
-  casestudies:    "Case studies and fact sheets"
-  training:       "Training"
-  calendar:       "Calendar and material"
-  coordination:   "Coordination"
-  peerworking:    "Cash Peer Working Group"
-  videos:         "Videos"
-  youtube:        "IFRC YouTube page"
-  searchmessage:  "Search for a document..."
-  emptymessage:   "unable to find a matching document"
-  suggestlimit:   "maximum of 20 suggestions returned when searching"
+  guidance:       "Руководство"
+  keydocs:        "Основные документы и дополнительные рекомендации CTP"
+  learning:       "Обучение"
+  casestudies:    "Тематические исследования, фактологические бюллетени и отчеты"
+  training:       "Обучение"
+  calendar:       "Календарь и материал"
+  coordination:   "Координация"
+  peerworking:    "Наличная коллегиальная рабочая группа"
+  videos:         "Видео"
+  youtube:        "Страница IFRC YouTube"
+  searchmessage:  "Поиск документа..."
+  emptymessage:   "невозможно найти соответствующий документ"
+  suggestlimit:   "не более 20 предложений, возвращенных при поиске"
 
 #####################
 ## Data Management ##
 #####################
 
 datamanagement:
-  about:          "Data Managment"
-  title:          "Data Management Resources"
+  about:          "Управление данными"
+  title:          "Ресурсы управления данными"
   loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
-  mdc:            "Mobile Data Collection"
-  spreadhsheet:   "Spreadsheet Tools"
-  imresources:    "Cash IM Resources"
-  searchmessage:  "Search for a document..."
-  emptymessage:   "unable to find a matching document"
-  suggestlimit:   "maximum of 20 suggestions returned when searching"
+  mdc:            "Мобильный сбор данных"
+  spreadhsheet:   "Инструменты электронных таблиц"
+  imresources:    "Ресурсы наличных денежных средств IM"
+  searchmessage:  "Поиск документа..."
+  emptymessage:   "невозможно найти соответствующий документ"
+  suggestlimit:   "не более 20 предложений, возвращенных при поиске"
