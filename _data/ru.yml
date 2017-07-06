@@ -4,8 +4,8 @@
 
 meta:
   description:    "Программирование на основе денежных переводов (CTP) - это эффективный и гибкий способ поддержки людей, пострадавших в результате чрезвычайных ситуаций, сохранения их достоинства и выбора, одновременно поощряя местную экономику. CTP включает в себя все формы помощи наличными и ваучерами. Инструментарий разработан как средство обеспечения доступности инструментов, практических рекомендаций и минимальных стандартов для персонала и добровольцев."
-  ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-en.jpg"
-  twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/twitter-img-en.jpg"
+  ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-ru.jpg"
+  twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/twitter-img-ru.jpg"
 
 iewarning:        "Your browser is out of date and not supported by this website. Please check out <a href=\"http://browsehappy.com/\">Browse Happy</a> to get the latest versions of major browsers."
 
