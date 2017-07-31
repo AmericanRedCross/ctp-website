@@ -7,7 +7,7 @@ meta:
   ogimg:          "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/og-img-ru.jpg"
   twitterimg:     "https://raw.githubusercontent.com/AmericanRedCross/ctp-website/gh-pages/img/twitter-img-ru.jpg"
 
-iewarning:        "Your browser is out of date and not supported by this website. Please check out <a href=\"http://browsehappy.com/\">Browse Happy</a> to get the latest versions of major browsers."
+iewarning:        "Ваш браузер устарел и не поддерживается этим сайтом. Пожалуйста, ознакомьтесь с <a href=\"http://browsehappy.com/\">http://browsehappy.com</a> чтобы получить последние версии основных браузеров."
 
 ####################
 ## HEADER CONTENT ##
@@ -42,7 +42,7 @@ about:
   title:          "На тему инструментарий программ денежной помощи в чрезвычайных ситуациях"
   paragraph1:     "Программирование на основе денежных переводов (CTP) - это эффективный и гибкий способ поддержки людей, пострадавших в результате чрезвычайных ситуаций, сохранения их достоинства и выбора, одновременно поощряя местную экономику. CTP включает в себя все формы помощи наличными и ваучерами."
   paragraph2:     "Международное движение Красного Креста и Красного Полумесяца разработало Инструмент «ПрограммА денежной помощи в чрезвычайных ситуациях» в качестве средства, обеспечивающего доступность инструментов, практических рекомендаций и минимальных стандартов для персонала и добровольцев. Инструментарий должен информировать и руководствоваться внедрением CTP, чтобы улучшить качество CTP на разных этапах проектного цикла."
-  toolkit:        "Explore the toolkit"
+  toolkit:        "Изучите инструментарий"
   toolkiturl:     "/ru/toolkit/"
 
 #####################
@@ -80,7 +80,7 @@ toolkit:
   title:          "Изучите инструментарий"
   paragraph1:     "Инструмент «Денежная помощь в чрезвычайных ситуациях» организован в модулях, каждый из которых соответствует разной фазе проектного цикла."
   paragraph2:     "Каждый модуль разделен на этапы и подэтапы. Они являются ориентировочными и необязательно последовательными. Пользователю может потребоваться перемещение назад и вперед, чтобы достичь намеченных результатов. Пользователю также может потребоваться пропустить некоторые из предложенных шагов или подэтапов из-за ограничений времени и ресурсов, которые являются общими в чрезвычайном контексте."
-  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  loaderror:      "Извините, что-то пошло не так, загрузив ресурс. Обновите страницу. Если проблема не устранена, отправьте электронное письмо на <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> с помощью интернет-браузера (имя и версия), которое вы используете, и URL-адрес. Спасибо."
   zip:            "Изучите документы инструментария ниже или загрузите весь"
   toolkit:        "инструментарий"
   modules:        "В наборе инструментов вы найдете 5 модулей:"
@@ -102,8 +102,8 @@ toolkit:
 
 resources:
   about:          "Ресурсы"
-  title:          "Red Cross Red Crescent Movement Resources"
-  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  title:          "Ресурсы движения Красного Креста Красного Полумесяца"
+  loaderror:      "Извините, что-то пошло не так, загрузив ресурс. Обновите страницу. Если проблема не устранена, отправьте электронное письмо на <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> с помощью интернет-браузера (имя и версия), которое вы используете, и URL-адрес. Спасибо."
   guidance:       "Руководство"
   keydocs:        "Основные документы и дополнительные рекомендации CTP"
   learning:       "Обучение"
@@ -125,7 +125,7 @@ resources:
 datamanagement:
   about:          "Управление данными"
   title:          "Ресурсы управления данными"
-  loaderror:      "Sorry, something went wrong loading the resource. Please refresh the page. If the problem persists, send an email to <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> with the internet browser (name and version) you are using and the URL. Thank you."
+  loaderror:      "Извините, что-то пошло не так, загрузив ресурс. Обновите страницу. Если проблема не устранена, отправьте электронное письмо на <a href=\"mailto:daniel.joseph@redcross.org\">daniel.joseph@redcross.org</a> с помощью интернет-браузера (имя и версия), которое вы используете, и URL-адрес. Спасибо."
   mdc:            "Мобильный сбор данных"
   spreadhsheet:   "Инструменты электронных таблиц"
   imresources:    "Ресурсы наличных денежных средств IM"
