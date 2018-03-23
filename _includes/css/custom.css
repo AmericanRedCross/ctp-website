@@ -528,3 +528,9 @@ li.evaluation.active {
     background-size: cover;
     -o-background-size: cover;
 }
+
+#app-notification {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  color: #ed1b2e;
+}
