@@ -269,7 +269,7 @@
     <!-- Resources content -->
     <div id="resources" class="">
       {% if locale != "ar" %}
-      <div class="menu-btn"><i class="fa fa-bars"></i></div>
+      <div class="menu-btn"><i class="fas fa-bars"></i></div>
       {% endif %}
       <!--[if lte IE 9]>
         <section id="browser-warning">
@@ -321,7 +321,7 @@
             <div class="col-sm-4 col-xs-6">
                 <img class="img-resources img-circle" src="/img/resources5-videos.jpg" alt="{{site.data[locale].resources.videos}}">
                 <div class="caption">
-                  <p><a href="https://www.youtube.com/playlist?list=PLrI6tpZ6pQmRg2nU1MEsxiKdMKPABKmlQ" target="_blank" class="btn btn-lg btn-default btn-resources btn-youtube page-scroll" role="button">{{site.data[locale].resources.videos}}&nbsp; <i class="fa fa-external-link" aria-hidden="true"></i>
+                  <p><a href="https://www.youtube.com/playlist?list=PLrI6tpZ6pQmRg2nU1MEsxiKdMKPABKmlQ" target="_blank" class="btn btn-lg btn-default btn-resources btn-youtube page-scroll" role="button">{{site.data[locale].resources.videos}}&nbsp; <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                   <br><small>{{site.data[locale].resources.youtube}}</small>
                   </a></p>
                 </div>
@@ -360,12 +360,12 @@
 $('.menu-btn').on('click', function(){
   if ($('.menu-btn').hasClass('is-open')) {
     $('.menu-btn').removeClass('is-open');
-    d3.select('.menu-btn').select('.fa').classed({ "fa-bars": true, "fa-times": false })
+    d3.select('.menu-btn').select('.fas').classed({ "fa-bars": true, "fa-times": false })
     $('#resources').removeClass('is-open');
     $('#resources-sidebar').removeClass('is-open');
   } else {
     $('.menu-btn').addClass('is-open');
-    d3.select('.menu-btn').select('.fa').classed({ "fa-bars": false, "fa-times": true })
+    d3.select('.menu-btn').select('.fas').classed({ "fa-bars": false, "fa-times": true })
     $('#resources').addClass('is-open');
     $('#resources-sidebar').addClass('is-open');
   }
@@ -387,30 +387,30 @@ var typeIcon = function(extension){
   switch(extension) {
     case ".doc":
     case ".docx":
-      return '<i class="fa fa-fw fa-file-word-o"></i> '
+      return '<i class="far fa-fw fa-file-word"></i> '
       break;
     case ".jpeg":
     case ".jpg":
     case ".png":
-      return '<i class="fa fa-fw fa-file-image-o"></i> '
+      return '<i class="far fa-fw fa-file-image"></i> '
       break;
     case ".pdf":
-      return '<i class="fa fa-fw fa-file-pdf-o"></i> '
+      return '<i class="far fa-fw fa-file-pdf"></i> '
       break;
     case ".ppt":
     case ".pptx":
-      return '<i class="fa fa-fw fa-file-powerpoint-o"></i> '
+      return '<i class="far fa-fw fa-file-powerpoint"></i> '
       break;
     case ".xls":
     case ".xlsm":
     case ".xlsx":
-      return '<i class="fa fa-fw fa-file-excel-o"></i> '
+      return '<i class="far fa-fw fa-file-excel"></i> '
       break;
     case ".zip":
-      return '<i class="fa fa-fw fa-file-archive-o"></i> '
+      return '<i class="far fa-fw fa-file-archive"></i> '
       break;
     default:
-      return '<i class="fa fa-fw fa-file-o"></i> '
+      return '<i class="far fa-fw fa-file"></i> '
   }
 };
 

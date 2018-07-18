@@ -279,7 +279,7 @@
       <![endif]-->
 
       {% if locale != "ar" %}
-      <div class="menu-btn"><i class="fa fa-bars"></i></div>
+      <div class="menu-btn"><i class="fas fa-bars"></i></div>
       {% endif %}
       <div class="text-center">
           <h2>{{site.data[locale].toolkit.title}}</h2>
@@ -353,14 +353,14 @@
 $('.menu-btn').on('click', function(){
   if ($('.menu-btn').hasClass('is-open')) {
     $('.menu-btn').removeClass('is-open');
-    d3.select('.menu-btn').select('.fa').classed({ "fa-bars": true, "fa-times": false })
-    $('#toolkit').removeClass('is-open');
-    $('#toolkit-sidebar').removeClass('is-open');
+    d3.select('.menu-btn').select('.fas').classed({ "fa-bars": true, "fa-times": false })
+    $('#resources').removeClass('is-open');
+    $('#resources-sidebar').removeClass('is-open');
   } else {
     $('.menu-btn').addClass('is-open');
-    d3.select('.menu-btn').select('.fa').classed({ "fa-bars": false, "fa-times": true })
-    $('#toolkit').addClass('is-open');
-    $('#toolkit-sidebar').addClass('is-open');
+    d3.select('.menu-btn').select('.fas').classed({ "fa-bars": false, "fa-times": true })
+    $('#resources').addClass('is-open');
+    $('#resources-sidebar').addClass('is-open');
   }
 });
 
@@ -380,30 +380,30 @@ var typeIcon = function(extension){
   switch(extension) {
     case ".doc":
     case ".docx":
-      return '<i class="fa fa-fw fa-file-word-o"></i> '
+      return '<i class="far fa-fw fa-file-word"></i> '
       break;
     case ".jpeg":
     case ".jpg":
     case ".png":
-      return '<i class="fa fa-fw fa-file-image-o"></i> '
+      return '<i class="far fa-fw fa-file-image"></i> '
       break;
     case ".pdf":
-      return '<i class="fa fa-fw fa-file-pdf-o"></i> '
+      return '<i class="far fa-fw fa-file-pdf"></i> '
       break;
     case ".ppt":
     case ".pptx":
-      return '<i class="fa fa-fw fa-file-powerpoint-o"></i> '
+      return '<i class="far fa-fw fa-file-powerpoint"></i> '
       break;
     case ".xls":
     case ".xlsm":
     case ".xlsx":
-      return '<i class="fa fa-fw fa-file-excel-o"></i> '
+      return '<i class="far fa-fw fa-file-excel"></i> '
       break;
     case ".zip":
-      return '<i class="fa fa-fw fa-file-archive-o"></i> '
+      return '<i class="far fa-fw fa-file-archive"></i> '
       break;
     default:
-      return '<i class="fa fa-fw fa-file-o"></i> '
+      return '<i class="far fa-fw fa-file"></i> '
   }
 };
 

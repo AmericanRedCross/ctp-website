@@ -342,12 +342,12 @@
 $('.menu-btn').on('click', function(){
   if ($('.menu-btn').hasClass('is-open')) {
     $('.menu-btn').removeClass('is-open');
-    d3.select('.menu-btn').select('.fa').classed({ "fa-bars": true, "fa-times": false })
+    d3.select('.menu-btn').select('.fas').classed({ "fa-bars": true, "fa-times": false })
     $('#resources').removeClass('is-open');
     $('#resources-sidebar').removeClass('is-open');
   } else {
     $('.menu-btn').addClass('is-open');
-    d3.select('.menu-btn').select('.fa').classed({ "fa-bars": false, "fa-times": true })
+    d3.select('.menu-btn').select('.fas').classed({ "fa-bars": false, "fa-times": true })
     $('#resources').addClass('is-open');
     $('#resources-sidebar').addClass('is-open');
   }
