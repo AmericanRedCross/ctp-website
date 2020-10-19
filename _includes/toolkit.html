@@ -425,7 +425,7 @@ var toolkitdata, modalitiesdata;
 function fetchToolkit(){
   $.ajax({
     type: 'GET',
-    url: 'http://webviz.redcross.org/ctp/toolkit/' + language,
+    url: 'https://webviz.redcross.org/ctp/toolkit/' + language,
     dataType: 'JSON',
     error: function(){
       toolkitdata = [];
@@ -517,18 +517,18 @@ function buildToolkit() {
         if(toolkitdata[i].dboxpathparts.length === 1){
           if(toolkitdata[i].ext === ".zip"){
             var thisHtml = "{{site.data[locale].toolkit.zip}}" + ' ' +
-              '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/1. toolkit/' + toolkitdata[i].basename + '">' +
+              '<a target="_blank" href="https://webviz.redcross.org/ctp/docs/' + language + '/1. toolkit/' + toolkitdata[i].basename + '">' +
               "{{site.data[locale].toolkit.toolkit}}" + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
             $('.toolkit-zip').html(thisHtml);
           } else {
             var thisHtml = '<div id="' + identity(toolkitdata[i].dboxpathparts.slice(1).join('/') + toolkitdata[i].basename) + '">' +
-              '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/1. toolkit/' + toolkitdata[i].basename + '">' +
+              '<a target="_blank" href="https://webviz.redcross.org/ctp/docs/' + language + '/1. toolkit/' + toolkitdata[i].basename + '">' +
               toolkitdata[i].basename.slice(0,toolkitdata[i].basename.indexOf(toolkitdata[i].ext)) + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
             $('.overview-docs').append(thisHtml);
           }
         } else {
           var thisHtml = '<div class="toolkit-item" id="' + identity(toolkitdata[i].dboxpathparts.slice(1).join('/') + toolkitdata[i].basename) + '">' +
-            '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/' +
+            '<a target="_blank" href="https://webviz.redcross.org/ctp/docs/' + language + '/' +
             toolkitdata[i].dboxpathparts.join('/') + '/' + toolkitdata[i].basename + '">' +
             toolkitdata[i].basename.slice(0,toolkitdata[i].basename.indexOf(toolkitdata[i].ext)) + ' ' + typeIcon(toolkitdata[i].ext) + '</a></div>';
             // console.log(identity(toolkitdata[i].dboxpathparts.join('/')))
@@ -544,7 +544,7 @@ function buildToolkit() {
 function fetchModalities(){
   $.ajax({
     type: 'GET',
-    url: 'http://webviz.redcross.org/ctp/modalities/' + language,
+    url: 'https://webviz.redcross.org/ctp/modalities/' + language,
     dataType: 'JSON',
     error: function(){
       modalitiesdata = [];
@@ -614,7 +614,7 @@ function buildModalities(){
   for(var i=0; i<modalitiesdata.length; i++){
     if(systemFile(modalitiesdata[i].basename) === false){
       var thisHtml = '<div class="toolkit-item" id="' + identity(modalitiesdata[i].dboxpathparts.slice(1).join('/') + modalitiesdata[i].basename) + '">' +
-        '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/' +
+        '<a target="_blank" href="https://webviz.redcross.org/ctp/docs/' + language + '/' +
         modalitiesdata[i].dboxpathparts.join('/') + '/' + modalitiesdata[i].basename + '">' +
         modalitiesdata[i].basename.slice(0,modalitiesdata[i].basename.indexOf(modalitiesdata[i].ext)) + ' ' + typeIcon(modalitiesdata[i].ext) + '</a></div>';
       $('[data-toolkitpath="' + modalitiesdata[i].dboxpathparts.join('/') + '"]').children('.contents').prepend(thisHtml);

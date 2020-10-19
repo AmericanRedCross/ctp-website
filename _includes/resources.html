@@ -432,7 +432,7 @@ var resourcesdata, modalitiesdata;
 function fetchResources(){
   $.ajax({
     type: 'GET',
-    url: 'http://webviz.redcross.org/ctp/resources/' + language,
+    url: 'https://webviz.redcross.org/ctp/resources/' + language,
     dataType: 'JSON',
     error: function(){
       $("#error-resources").show();
@@ -508,12 +508,12 @@ function buildResources() {
       if(systemFile(resourcesdata[i].basename) === false){
         if(resourcesdata[i].dboxpathparts.length === 1){
           var thisHtml = '<div id="' + identity(resourcesdata[i].dboxpathparts.slice(1).join('/') + resourcesdata[i].basename) + '">' +
-            '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/resources/' + resourcesdata[i].basename + '">' +
+            '<a target="_blank" href="https://webviz.redcross.org/ctp/docs/' + language + '/resources/' + resourcesdata[i].basename + '">' +
             resourcesdata[i].basename.slice(0,resourcesdata[i].basename.indexOf(resourcesdata[i].ext)) + ' ' + typeIcon(resourcesdata[i].ext) + '</a></div>';
           $('.overview-docs').append(thisHtml);
         } else {
           var thisHtml = '<div class="resources-item" id="' + identity(resourcesdata[i].dboxpathparts.slice(1).join('/') + resourcesdata[i].basename) + '">' +
-            '<a target="_blank" href="http://webviz.redcross.org/ctp/docs/' + language + '/' +
+            '<a target="_blank" href="https://webviz.redcross.org/ctp/docs/' + language + '/' +
             resourcesdata[i].dboxpathparts.join('/') + '/' + resourcesdata[i].basename + '">' +
             resourcesdata[i].basename.slice(0,resourcesdata[i].basename.indexOf(resourcesdata[i].ext)) + ' ' + typeIcon(resourcesdata[i].ext) + '</a></div>';
             // console.log(identity(resourcesdata[i].dboxpathparts.join('/')))
